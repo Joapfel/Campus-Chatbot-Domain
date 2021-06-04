@@ -83,18 +83,9 @@ if __name__ == "__main__":
     # get all courses in batches
     api = CampusApi(5)
     batch = api.get_next_batch_of_courses()
+    courses_count = 0
 
-    # printing start
-    courses_count = len(batch)
-    print(f"{courses_count} courses have been downloaded in total.")
-    print("Titles of new courses:")
-    for course in batch:
-        print(f"\t{course.xpath('resource/content/cpCourseDetailDto/cpCourseDto/courseTitle/value')[0].text}")
-    # printing end
-    
     while batch is not None:
-        batch = api.get_next_batch_of_courses()
-
         # printing start
         courses_count += len(batch)
         print(f"{courses_count} courses have been downloaded.")
@@ -102,3 +93,5 @@ if __name__ == "__main__":
         for course in batch:
             print(f"\t{course.xpath('resource/content/cpCourseDetailDto/cpCourseDto/courseTitle/value')[0].text}")
         # printing end
+
+        batch = api.get_next_batch_of_courses()
