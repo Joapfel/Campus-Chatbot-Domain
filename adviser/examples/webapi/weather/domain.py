@@ -24,7 +24,7 @@ from datetime import datetime
 
 from utils.domain.lookupdomain import LookupDomain
 
-API_KEY = '20e9d9cc587229406c6c491ded2b9d66'
+API_KEY = ''
 
 
 class WeatherDomain(LookupDomain):
