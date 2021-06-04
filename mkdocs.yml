@@ -1,0 +1,52 @@
+site_name: Adviser
+site_url: https://digitalphonetics.github.io/adviser/
+repo_url: https://github.com/DigitalPhonetics/adviser
+
+nav:
+- Home: index.md
+- Getting Started: getting-started.md
+- Reference:
+  - Services: api/services.md
+  - Examples: api/examples.md
+  - Utils: api/utils.md
+  - Tools: api/tools.md
+- Tutorials:
+  - Introduction: tutorials/introduction/index.md
+  - Services: tutorials/services/index.md
+  - Dialog System: tutorials/dialogsystem/index.md
+  - Advanced: tutorials/advanced/index.md
+- FAQ: faq.md
+
+theme: material
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  # - smarty
+  - codehilite:
+      guess_lang: false
+  - admonition
+  - pymdownx.tabbed
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
+      handlers:
+        python:
+          # selection:
+          #   filters:
+          #     - "!^python$"
+          rendering:
+            show_if_no_docstring: true
+            # show_source: true,
+            # show_root_toc_entry: false,
+            # show_root_heading: false,
+            # show_object_full_path: true,
+            # show_root_full_path: false,
+            # show_category_heading: true
+      watch:
+        - adviser
+
+extra_css:
+  - custom.css
