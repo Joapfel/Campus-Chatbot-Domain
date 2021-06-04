@@ -1,0 +1,14 @@
+semester 
+start/end of semester
+title
+course content
+previous knowledge
+course objective
+institute
+course type (e.g. exercise / UE)
+course language
+lecturer identity (first name, last name, gender)
+teaching function (tb found out what it is)
+registration information
+semester hours (also derive ects from that)
+link to ilias course 
