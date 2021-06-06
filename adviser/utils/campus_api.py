@@ -1,3 +1,4 @@
+from typing import Union
 import requests
 from lxml import etree
 from loguru import logger
@@ -34,7 +35,7 @@ class CampusApi:
         r = requests.get(BASE_URL + f"/{id}")
         return etree.fromstring(r.content)
 
-    def get_next_batch_of_courses(self) -> list:
+    def get_next_batch_of_courses(self) -> Union[list, None]:
         """
         Returns the next n courses.
 
@@ -72,7 +73,6 @@ class CampusApi:
                 logger.debug(f"Retrievning course id failed. Continuing...")
 
         return ids
-
 
 
 # example of how to use the api
