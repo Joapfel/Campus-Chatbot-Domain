@@ -1,0 +1,3 @@
+
+template inform_by_topic(topic_of_interest):
+    "Here are courses about {topic_of_interest}:"

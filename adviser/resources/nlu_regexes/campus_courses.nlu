@@ -1,0 +1,10 @@
+
+rule inform(topic_of_interest)
+    "{topic_of_interest}"
+    "I am interested in {topic_of_interest}"
+    "I would like to take a course about {topic_of_interest}"
+
+rule request(lecturer)
+    "Who is the teacher"
+    "Who is the lecturer"
+    "Who is the professor"

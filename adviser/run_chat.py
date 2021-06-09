@@ -137,9 +137,15 @@ def load_qa_domain():
     qa_nlg = MultiNLG(domain=domain)
     return domain, [qa_nlu, qa_policy, qa_nlg]
 
+def load_campus_domain():
+    """
+    TODO: tbd
+    """
+    return None, None
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='ADVISER 2.0 Dialog System')
-    parser.add_argument('domains', nargs='+', choices=['lecturers', 'weather', 'mensa', 'qa'],
+    parser.add_argument('domains', nargs='+', choices=['lecturers', 'weather', 'mensa', 'qa', 'campus'],
                         help="Chat domain(s). For multidomain type as list: domain1 domain2 .. \n",
                         default="ImsLecturers")
     parser.add_argument('-g', '--gui', action='store_true', help="Start Webui server")
@@ -203,6 +209,10 @@ if __name__ == "__main__":
         qa_domain, qa_services = load_qa_domain()
         domains.append(qa_domain)
         services.extend(qa_services)
+    if 'campus' in args.domains:
+        campus_domain, campus_services = load_campus_domain()
+        domains.append(campus_domain)
+        services.extend(campus_services)
 
     # load HCI interfaces
     gui_server_prochandle = None
