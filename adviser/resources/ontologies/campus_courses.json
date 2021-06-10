@@ -1,0 +1,24 @@
+{
+    "discourseAct": [
+        "ack",
+        "hello",
+        "none",
+        "silence",
+        "thanks",
+        "bad"
+    ],
+    
+    "key": "name",
+
+    "informable": {
+        "topic_of_interest": [
+            "machine learning",
+            "search engine",
+            "software architecture"
+        ]
+    },
+
+    "requestable": [
+        "lecturer"
+    ]
+}
