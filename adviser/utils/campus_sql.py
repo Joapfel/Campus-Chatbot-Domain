@@ -1,4 +1,6 @@
 import os
+import random
+from typing import List
 import sqlite3
 from lxml.etree import Element
 from campus_api import CampusApi
@@ -26,6 +28,20 @@ class Course:
         self.institution = None
         self.lecturers = []  # as list
 
+        # dummy slot values, binary values
+        self.ml = None
+        self.engineering = None
+        self.politics = None
+        self.literature = None
+        self.culture = None
+
+    def fill_slot_values(self, slot_values: List[str]):
+        self.ml = slot_values[0]
+        self.engineering = slot_values[1]
+        self.politics = slot_values[2]
+        self.literature = slot_values[3]
+        self.culture = slot_values[4]
+
     def to_dict(self):
         return {
             'id': self.id,
@@ -42,7 +58,12 @@ class Course:
             'prerequisite': self.prerequisite,
             'extra_info': self.further_info,
             'institution': self.institution,
-            'lecturers': ', '.join(self.lecturers)
+            'lecturers': ', '.join(self.lecturers),
+            'machine_learning': self.ml,
+            'engineering': self.engineering,
+            'politics': self.politics,
+            'literature': self.literature,
+            'culture': self.culture
         }
 
 
@@ -121,6 +142,12 @@ def get_course_info(xml: Element) -> Course:
                         if 'ILIAS' in child.xpath(".//courseUrlDtoList/name/value")[0].text:
                             course.ilias_link = child.xpath(".//courseUrlDtoList/url")[0].text
 
+    # now insert dummy slot values into course
+    slots = []
+    for i in range(5):
+        n = random.randint(0, 1)
+        slots.append('true' if n == 1 else 'false')
+    course.fill_slot_values(slots)
     return course
 
 
@@ -143,7 +170,13 @@ def create_table():
                                                 objective TEXT,
                                                 prerequisite TEXT,
                                                 institution TEXT,
-                                                extra_info TEXT)"""
+                                                extra_info TEXT,
+                                                machine_learning TEXT,
+                                                engineering TEXT,
+                                                politics TEXT,
+                                                literature TEXT,
+                                                culture TEXT
+                                                )"""
 
     cursor.execute(sql)
     connection.commit()  # commit changes
@@ -155,9 +188,11 @@ def insert_data_to_db(course: Course):
 
     course = course.to_dict()
     for key, value in course.items():
-        if value:
-            columns.append(key)
-            info += (value,)
+        if not value:  # if no info, then fill in with 'na'
+            value = 'na'
+
+        columns.append(key)
+        info += (value,)
 
     data = ['?'] * len(info)  # placeholders in the sql string
     sql = 'INSERT OR IGNORE INTO courses (' + ','.join(columns) + ') VALUES (' + ','.join(data) + ')'
@@ -168,13 +203,14 @@ def insert_data_to_db(course: Course):
 if __name__ == "__main__":
 
     # create an SQL database
-    db_path = '../resources/databases/campus_courses.db'
+    # db_path = '../resources/databases/campus_courses.db'
+    db_path = '../resources/databases/dummy_courses.db'
     connection = sqlite3.connect(os.path.join(os.getcwd(), db_path))  # establish a connection
     cursor = connection.cursor()  # create the cursor object
     create_table()
 
     # retrieve courses from the api in batch
-    api = CampusApi(50)
+    api = CampusApi(30)
     batch = api.get_next_batch_of_courses()
     courses_count = 0
 
@@ -184,5 +220,6 @@ if __name__ == "__main__":
         for course_xml in batch:
             # turn course xml into Course object and insert into the sql db
             insert_data_to_db(get_course_info(xml=course_xml))
-        batch = api.get_next_batch_of_courses()
+        # batch = api.get_next_batch_of_courses()
+        batch = None
     print('Done with {} courses'.format(courses_count))
