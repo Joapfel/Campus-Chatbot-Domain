@@ -138,10 +138,16 @@ def load_qa_domain():
     return domain, [qa_nlu, qa_policy, qa_nlg]
 
 def load_campus_domain():
-    """
-    TODO: tbd
-    """
-    return None, None
+    from utils.domain.jsonlookupdomain import JSONLookupDomain
+    from services.nlu.nlu import HandcraftedNLU
+    from services.nlg.nlg import HandcraftedNLG
+    from services.policy import HandcraftedPolicy
+    campus_domain = JSONLookupDomain('campus_courses', display_name="Campus Courses")
+    nlu = HandcraftedNLU(domain=campus_domain)
+    bst = HandcraftedBST(domain=campus_domain)
+    policy = HandcraftedPolicy(domain=campus_domain)
+    nlg = HandcraftedNLG(domain=campus_domain)
+    return campus_domain, [nlu, bst, policy, nlg]
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='ADVISER 2.0 Dialog System')
