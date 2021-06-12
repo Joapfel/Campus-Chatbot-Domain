@@ -156,27 +156,27 @@ def create_table():
     Create table in the SQL database
     :return: None
     """
-    sql = """CREATE TABLE IF NOT EXISTS courses ( id INTEGER PRIMARY KEY,
-                                                title TEXT NOT NULL,
-                                                lecturers TEXT,
-                                                semester TEXT,
-                                                start_date TEXT,
-                                                end_date TEXT,
-                                                semester_hours TEXT,
-                                                type TEXT,
-                                                language TEXT,
-                                                ilias_link TEXT,
-                                                description TEXT,
-                                                objective TEXT,
-                                                prerequisite TEXT,
-                                                institution TEXT,
-                                                extra_info TEXT,
-                                                machine_learning TEXT,
-                                                engineering TEXT,
-                                                politics TEXT,
-                                                literature TEXT,
-                                                culture TEXT
-                                                )"""
+    sql = """CREATE TABLE IF NOT EXISTS campus_courses ( id INTEGER PRIMARY KEY,
+                                                        title TEXT NOT NULL,
+                                                        lecturers TEXT,
+                                                        semester TEXT,
+                                                        start_date TEXT,
+                                                        end_date TEXT,
+                                                        semester_hours TEXT,
+                                                        type TEXT,
+                                                        language TEXT,
+                                                        ilias_link TEXT,
+                                                        description TEXT,
+                                                        objective TEXT,
+                                                        prerequisite TEXT,
+                                                        institution TEXT,
+                                                        extra_info TEXT,
+                                                        machine_learning TEXT,
+                                                        engineering TEXT,
+                                                        politics TEXT,
+                                                        literature TEXT,
+                                                        culture TEXT
+                                                        )"""
 
     cursor.execute(sql)
     connection.commit()  # commit changes
@@ -195,7 +195,7 @@ def insert_data_to_db(course: Course):
         info += (value,)
 
     data = ['?'] * len(info)  # placeholders in the sql string
-    sql = 'INSERT OR IGNORE INTO courses (' + ','.join(columns) + ') VALUES (' + ','.join(data) + ')'
+    sql = 'INSERT OR IGNORE INTO campus_courses (' + ','.join(columns) + ') VALUES (' + ','.join(data) + ')'
     cursor.execute(sql, info)  # finally add values into the table
     connection.commit()  # commit the changes
 
