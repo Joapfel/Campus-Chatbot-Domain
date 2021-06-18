@@ -1,10 +1,19 @@
+rule hello(): "(\\b|^|\\ )(hi|hello|howdy|hey)\\b"
+rule bye(): "(\\b|^|\\ )(bye(-)?(bye)?|good(-)?bye|that'?s?\\ (is\\ )*all)(\\s|$|\\ |\\.)"
+rule deny(): "((\\b|^|\\ )(n(o)?|wrong|incorrect|error|nope)|(not\\ (true|correct|right)))(\\s)?$"
+rule affirm(): "((yes|yeah|(\\b|^)ok\\b|(\\b|^)OK|okay|sure|^y$|(\\b|^)yep(\\b|$)|(that('?s| is) )?(?<!not\\ )(?<!no\\ )(right|correct|confirm)))(\\s)?$"
+rule thanks(): "(?=.*(^(\\ )*)(((great|good|awesome|nice|cool)\\ )?((that((')?s|\\ (is|was))\\ (very\\ )?helpful)\\ )?(thank|thank(s|\\ you)(\\ (very|so)\\ much)?)(\\ (that((')?s|\\ (is|was))\\ (very\\ )?helpful))?|((great|good|awesome|nice|cool)\\ )?(that((')?s|\\ (is|was))\\ (very\\ )?helpful)|(great|good|awesome|nice|cool))((\\ )*))(?=^(?:(?!bye).)*$).*$"
+rule repeat(): "(\\b|^|\\ )(repeat((\\ that )|(\\ it))?)|(say((\\ that )|(\\ it))\\ again)|(again)"
+rule reqalts(): "(\\b|^|\\ )((something|anything)\\ else)|(different(\\ one)*)|(another\\ one)|(alternatives*)|(other options*)|((don'*t|do not) (want|like)\\ (that|this)(\\ one)*)"
+rule ack(): "{IMPOSSIBLEREGEX()}"
+rule bad(): "{IMPOSSIBLEREGEX()}"
 
-rule inform(topic_of_interest)
-    "{topic_of_interest}"
-    "I am interested in {topic_of_interest}"
-    "I would like to take a course about {topic_of_interest}"
+rule inform(machine_learning)
+    "I am interested in machine learning"
+    "I would like to take a course about machine learning"
 
-rule request(lecturer)
-    "Who is the teacher"
-    "Who is the lecturer"
-    "Who is the professor"
+rule request(machine_learning)
+    "Is it about machine learning"
+
+rule request(description)
+    "Show me the description"

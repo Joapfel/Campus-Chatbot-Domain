@@ -1,4 +1,9 @@
 {
+    "binary": [
+        "machine_learning",
+        "machine_learning",
+        "machine_learning"
+    ],
     "discourseAct": [
         "ack",
         "hello",
@@ -7,18 +12,27 @@
         "thanks",
         "bad"
     ],
-    
-    "key": "name",
-
     "informable": {
-        "topic_of_interest": [
-            "machine learning",
-            "search engine",
-            "software architecture"
+        "machine_learning": [
+            "false",
+            "true"
         ]
     },
-
+    "key": "title",
+    "method": [
+        "none",
+        "byconstraints",
+        "byprimarykey",
+        "finished",
+        "byalternatives",
+        "restart"
+    ],
     "requestable": [
-        "lecturer"
-    ]
+        "machine_learning",
+        "description"
+    ],
+    "system_requestable": [
+        "machine_learning"
+    ],
+    "keyword": "campus"
 }
