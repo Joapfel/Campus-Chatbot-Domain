@@ -1,9 +1,13 @@
 import os
 import random
+import re
 from typing import List
+
 import sqlite3
 from lxml.etree import Element
 from campus_api import CampusApi
+from nltk.corpus import stopwords
+from collections import Counter
 
 
 class Course:
@@ -200,6 +204,27 @@ def insert_data_to_db(course: Course):
     connection.commit()  # commit the changes
 
 
+def remove_stopwords(title: str) -> list:
+    title = re.sub("[!#$%&\\'()*+,-./:;<=>?@^_`{|}~]", '', title)
+    title = [word for word in title.strip().split() if word.lower() not in en_sw]
+    return [word for word in title if word.lower() not in de_sw]
+
+
+def get_ngrams(title: list) -> Counter:
+    count = Counter()
+    count.update(title)   # add unigrams
+    count.update([' '.join(title[i:i + 2]) for i in range(0, len(title) - 1)])  # add bigrams
+    count.update([' '.join(title[i:i + 3]) for i in range(0, len(title) - 2)])  # add bigrams
+    return count
+
+
+def write_topics():
+    path_to_file = '../resources/databases/topics.txt'
+    out = [topic + "\t" + str(count) for topic, count in topics.most_common()]
+    with open(path_to_file, 'w', encoding='utf-8') as file:
+        file.write('\n'.join(out))
+
+
 if __name__ == "__main__":
 
     # create an SQL database
@@ -212,6 +237,12 @@ if __name__ == "__main__":
     # retrieve courses from the api in batch
     api = CampusApi(30)
     batch = api.get_next_batch_of_courses()
+
+    topics = Counter()
+    en_sw = stopwords.words('english')
+    de_sw = stopwords.words('german')
+
+    courses: List[Course] = []
     courses_count = 0
 
     while batch is not None:
@@ -219,7 +250,13 @@ if __name__ == "__main__":
         print('Processed {} courses'.format(courses_count))
         for course_xml in batch:
             # turn course xml into Course object and insert into the sql db
-            insert_data_to_db(get_course_info(xml=course_xml))
-        # batch = api.get_next_batch_of_courses()
-        batch = None
+            course = get_course_info(xml=course_xml)
+            topics.update(get_ngrams(remove_stopwords(course.title)))  # from title
+            topics.update(get_ngrams(remove_stopwords(course.institution)))  # from institution
+
+            # courses.append(course)
+            # insert_data_to_db(get_course_info(xml=course_xml))
+        batch = api.get_next_batch_of_courses()
+
+    write_topics()
     print('Done with {} courses'.format(courses_count))
