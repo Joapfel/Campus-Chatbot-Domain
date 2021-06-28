@@ -12,6 +12,14 @@ rule inform(machine_learning)
     "I am interested in machine learning"
     "I would like to take a course about machine learning"
 
+rule inform(type)
+    if type = "Seminar"
+        "Seminar"
+        "I am looking for a Seminar"
+    if type = "Exercise"
+        "Exercise"
+        "I am looking for an Exercise"
+
 rule request(machine_learning)
     "Is it about machine learning"
 
