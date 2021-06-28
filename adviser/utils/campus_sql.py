@@ -1,6 +1,4 @@
 import os
-import sys
-import random
 import re
 import pickle
 from typing import List
@@ -139,21 +137,23 @@ def get_course_info(xml: Element) -> Course:
                     elif child.xpath(".//courseUrlDtoList"):
                         if 'ILIAS' in child.xpath(".//courseUrlDtoList/name/value")[0].text:
                             course.ilias_link = child.xpath(".//courseUrlDtoList/url")[0].text
-
-    # now insert dummy slot values into course
-    # values = get_topics_for_course(course)
-    # course.topics = final_topics
-    # course.values = values
     return course
 
 
 def get_topics_for_course(course: Course, topics: list) -> list:
     values = []
-    for i in range(len(topics)):
-        n = random.randint(0, 1)
-        values.append('true' if n == 1 else 'false')
+    for topic in topics:
+        values.append('true') if check_topic_exists(course, topic) else values.append('false')
     assert len(topics) == len(values)
     return values
+
+
+def check_topic_exists(course: Course, topic: str) -> bool:
+    search_fields = [course.title, course.description, course.objective, course.prerequisite, course.further_info]
+    for field in search_fields:
+        if field and re.search(topic.replace('_', ' ').lower(), field.lower()):
+            return True
+    return False
 
 
 def create_table(topics: list):
@@ -212,7 +212,7 @@ def insert_course_to_db(course: Course) -> int:
 
 def insert_topics_to_course(course, topics, course_id):
     values = get_topics_for_course(course, topics)
-    course.topics = final_topics
+    course.topics = topics
     course.values = values
 
     mapping = course.topics_to_dict()

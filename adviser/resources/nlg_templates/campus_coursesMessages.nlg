@@ -1,9 +1,9 @@
-template welcomemsg(): "Welcome to the Campus Courses chat bot. How may I help you?"
-template welcomemsg(help): "Sorry, I cannot understand you. Please tell me again what you are looking for."
-template welcomemsg(more) : "Can I help you with anything else?"
-template bad() : "Sorry I am a bit confused; please tell me again what you are looking for."
-# repeat() : "Could you please repeat that?"
-template closingmsg() : "Thank you, goodbye."
+template welcomemsg(): "Hey, nice to meet you! I'm here to help you search for courses on Campus! :)"
+template welcomemsg(help): "Hmm... I don't get it. Cam you repeat please?"
+template welcomemsg(more) : "I'm happy to assist if you still have more questions :)"
+template bad() : "Sorry, your question is too complicated. Can you say it again in another way?"
+# repeat() : "Could you say it again?"
+template closingmsg() : "Bye bye, I hope you find my service useful."
 
 template inform_byname(title)
 	"There is a course named {title}."
