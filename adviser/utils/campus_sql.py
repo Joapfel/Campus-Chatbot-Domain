@@ -284,6 +284,8 @@ def load_topics() -> list:
                 ngrams, count = line.strip().split('\t')
                 if int(count) >= 10 and len(ngrams) > 3 and ngrams.lower() not in sql_keys:
                     topics.append(ngrams.strip().lower())
+            if len(topics) >= 300:
+                break
     return list(set(topics))  # remove duplicates
 
 
@@ -322,7 +324,7 @@ def download_courses_and_topics():
 if __name__ == "__main__":
 
     # db_path = '../resources/databases/campus_courses.db'
-    db_path = '../resources/databases/campus_courses_complete.db'
+    db_path = '../resources/databases/campus_courses_max300.db'
     path_to_courses_file = '../resources/databases/courses.pk'
     path_to_topic_file = '../resources/databases/topics.txt'
 
