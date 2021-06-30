@@ -26,6 +26,8 @@ sys.path.append(head_location)
 
 import json
 from utils.domain.jsonlookupdomain import JSONLookupDomain
+from utils.domain.jsonlookupdomain_large import JSONLookupDomainLarge
+
 from utils.useract import UserAct, UserActionType
 from tools.regextemplates.rules.regexfile import RegexFile
 
@@ -36,7 +38,7 @@ def _write_dict_to_file(dict_object: dict, filename: str):
         json.dump(dict_object, file, sort_keys=True)
 
 
-def _create_request_json(domain: JSONLookupDomain, template: RegexFile):
+def _create_request_json(domain: JSONLookupDomainLarge, template: RegexFile):
     request_regex_json = {}
     for slot in domain.get_requestable_slots():
         request_act = UserAct(act_type=UserActionType.Request, slot=slot)
@@ -44,7 +46,7 @@ def _create_request_json(domain: JSONLookupDomain, template: RegexFile):
     return request_regex_json
 
 
-def _create_inform_json(domain: JSONLookupDomain, template: RegexFile):
+def _create_inform_json(domain: JSONLookupDomainLarge, template: RegexFile):
     inform_regex_json = {}
     for slot in domain.get_informable_slots():
         inform_regex_json[slot] = {}
@@ -54,7 +56,7 @@ def _create_inform_json(domain: JSONLookupDomain, template: RegexFile):
     return inform_regex_json
 
 
-def create_json_from_template(domain: JSONLookupDomain, template_filename: str):
+def create_json_from_template(domain: JSONLookupDomainLarge, template_filename: str):
     template = RegexFile(template_filename, domain)
     domain_name = domain.get_domain_name()
     _write_dict_to_file(_create_request_json(domain, template), f'{domain_name}RequestRules.json')
@@ -68,5 +70,5 @@ if __name__ == '__main__':
     parser.add_argument("filename", help="name of your .nlu file without the .nlu ending (e.g.: resources/nlu_regexes/YOURNLUFILE.nlu -> provide YOURFILE)")
     args = parser.parse_args()
     nlu_file = os.path.join(head_location, 'resources', 'nlu_regexes', f"{args.filename}.nlu")
-    dom = JSONLookupDomain(args.domain)
+    dom = JSONLookupDomainLarge(args.domain)
     create_json_from_template(dom, nlu_file)
