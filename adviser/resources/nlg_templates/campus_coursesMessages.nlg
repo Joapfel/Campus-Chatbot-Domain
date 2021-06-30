@@ -14,8 +14,20 @@ template inform_byname(title, machine_learning)
 template inform_byname(title, machine_learning, type)
 	"There is a {type} named {title} and it contains machine learning topics."
 
+template inform_byname(title, literature, type)
+	"There is a {type} named {title} and it is about literature."
+
+template inform_byname(title, literature, language_taught, type)
+	"There is a {type} named {title} and it is about literature and taught in {language_taught}."
+
 template inform_byname(description)
 	"This is the description: {description}"
 
+template inform_byname(title, description)
+	"This is the description: {description}"
+
 template request(type)
-	"What type of course are you looking for, Seminar or Exercise?"
+	"What type of course are you looking for?"
+
+template request(language_taught)
+	"What language should the course be taught in?"

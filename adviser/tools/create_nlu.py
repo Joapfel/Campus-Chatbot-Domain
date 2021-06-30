@@ -66,6 +66,9 @@ if __name__ == "__main__":
                 if topic == "language_taught":
                     for topic_value in topic_2_values[topic]:
                         inform_rule += f'\n\tif {topic} = "{topic_value}" \
+                            \n\t\t"in {topic_value}" \
+                            \n\t\t"the course should be in {topic_value}" \
+                            \n\t\t"the language should be {topic_value}" \
                             \n\t\t"I am looking for a course taught in {topic_value}" \
                             \n\t\t"I am looking for a course taught in {topic_value} language"\n'
                         line_break = '\n'

@@ -138,11 +138,11 @@ def load_qa_domain():
     return domain, [qa_nlu, qa_policy, qa_nlg]
 
 def load_campus_domain():
-    from utils.domain.jsonlookupdomain_large import JSONLookupDomainLarge
+    from utils.domain.jsonlookupdomain import JSONLookupDomain
     from services.nlu.nlu import HandcraftedNLU
     from services.nlg.nlg import HandcraftedNLG
     from services.policy import HandcraftedPolicy
-    campus_domain = JSONLookupDomainLarge('campus_courses', display_name="Campus Courses")
+    campus_domain = JSONLookupDomain('campus_courses', display_name="Campus Courses")
     nlu = HandcraftedNLU(domain=campus_domain)
     bst = HandcraftedBST(domain=campus_domain)
     policy = HandcraftedPolicy(domain=campus_domain)
