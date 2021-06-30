@@ -31,13 +31,15 @@ if __name__ == "__main__":
 
     # read informables, requestables, etc from ontology
     topics = []
+    topic_2_values = {}
     requestables = []
     binaries = set()
 
     with open(args.ontology, 'r', encoding='utf-8') as f:
         ontology_json = json.load(f)
-        for k in ontology_json['informable'].keys():
+        for k,v in ontology_json['informable'].items():
             topics.append(k)
+            topic_2_values[k] = set(v)
         for k in ontology_json['requestable']:
             requestables.append(k)
         for k in ontology_json['binary']:
@@ -48,22 +50,57 @@ if __name__ == "__main__":
         # write inform rules to the nlu file
         line_break = '\n\n'
         for topic in topics:
-            # only consider binary topics for now since they are hard to scale by hand
-            # other informables can still be handcrafted since they are limited in number
-            if topic not in binaries: continue 
 
-            human_readable_topic = ' '.join(topic.split('_'))
-            inform_rule = f'{line_break}rule inform({topic}) \
-                \n\tif {topic} = "true" \
-                \n\t\t"I am interested in {human_readable_topic}"  \
-                \n\t\t"I would like to take a course about {human_readable_topic}" \
-                \n\t\t"Show me courses about {human_readable_topic}" \
-                \n\tif {topic} = "false" \
-                \n\t\t"I am not interested in {human_readable_topic}"  \
-                \n\t\t"I would not like to take a course about {human_readable_topic}" \
-                \n\t\t"Dont show me courses about {human_readable_topic}"\n' # last line needs a linebreak
-            line_break = '\n'
-            f.write(inform_rule)
+            # non-binary informables 
+            if topic not in binaries: 
+                inform_rule = f'{line_break}rule inform({topic})'
+
+                if topic == "institution":
+                    for topic_value in topic_2_values[topic]:
+                        inform_rule += f'\n\tif {topic} = "{topic_value}" \
+                            \n\t\t"I am looking for the institute of {topic_value}" \
+                            \n\t\t"I am looking for the {topic_value}"\n'
+                        line_break = '\n'
+                    f.write(inform_rule) 
+
+                if topic == "language_taught":
+                    for topic_value in topic_2_values[topic]:
+                        inform_rule += f'\n\tif {topic} = "{topic_value}" \
+                            \n\t\t"I am looking for a course taught in {topic_value}" \
+                            \n\t\t"I am looking for a course taught in {topic_value} language"\n'
+                        line_break = '\n'
+                    f.write(inform_rule)
+                
+                if topic == "semester_hours":
+                    for topic_value in topic_2_values[topic]:
+                        inform_rule += f'\n\tif {topic} = "{topic_value}" \
+                            \n\t\t"The course should be {topic_value} semester hours"\n'
+                        line_break = '\n'
+                    f.write(inform_rule)
+
+                if topic == "type":
+                    for topic_value in topic_2_values[topic]:
+                        inform_rule += f'\n\tif {topic} = "{topic_value}" \
+                            \n\t\t"I am looking for a {topic_value}" \
+                            \n\t\t"The course should be a {topic_value}" \
+                            \n\t\t"The course type should be a {topic_value}"\n' 
+                        line_break = '\n'
+                    f.write(inform_rule)
+
+            # binary informables (aka topics)
+            else:
+                human_readable_topic = ' '.join(topic.split('_'))
+                inform_rule = f'{line_break}rule inform({topic}) \
+                    \n\tif {topic} = "true" \
+                    \n\t\t"I am interested in {human_readable_topic}"  \
+                    \n\t\t"I would like to take a course about {human_readable_topic}" \
+                    \n\t\t"Show me courses about {human_readable_topic}" \
+                    \n\tif {topic} = "false" \
+                    \n\t\t"I am not interested in {human_readable_topic}"  \
+                    \n\t\t"I would not like to take a course about {human_readable_topic}" \
+                    \n\t\t"Dont show me courses about {human_readable_topic}"\n' # last line needs a linebreak
+                line_break = '\n'
+                f.write(inform_rule)
 
         # write request rules to the nlu file
         line_break = '\n\n' 
