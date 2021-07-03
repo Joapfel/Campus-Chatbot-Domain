@@ -1,33 +1,185 @@
+# Issue:
+# request topics?
+# slot != 'na'
+
+# ----------------------------System Welcome-------------------------------#
+
 template welcomemsg(): "Hey, nice to meet you! I'm here to help you search for courses on Campus! :)"
-template welcomemsg(help): "Hmm... I don't get it. Cam you repeat please?"
+template welcomemsg(help): "Hmm... I don't get it. Cam you say it again please?"
 template welcomemsg(more) : "I'm happy to assist if you still have more questions :)"
 template bad() : "Sorry, your question is too complicated. Can you say it again in another way?"
-# repeat() : "Could you say it again?"
 template closingmsg() : "Bye bye, I hope you find my service useful."
 
+
+# --------------------System Recommendation/Inform--------------------------#
+# InformByName: Propose an entity to the user
+# InformByAlternatives: Propose an alternate entity if the user isn't satisfied with the first
+
+# -------------------------Only Name Slot-----------------------------------#
+
+template inform_byname(name)
+	"I found this course: {name}. I can tell you more if you are interested."
+
+	special_case name = "none"
+		"No such course is found in my database."
+
+
+template inform_alternatives(name)
+	"What about the course: {name}?"
+
+	special_case name = "none"
+		"It seems that no alternative course is found."
+
+
+#------------------------ Name Slot + Slots----------------------------------#
+
+template inform_byname(name, *slots)
+	"The course {name} {for_entry(slots, "info", ", it ", " and it ", name)}."
+
+	special_case name = "none"
+		"Unfortunately, I found no course which {for_entry(slots, "info", ", ", " and ", name)}."
+
+template inform_alternatives(name, *slots)
+	"The course {name} also {for_entry(slots, "info", ", it ", " and it ", name)}."
+
+	special_case name = "none"
+		"Unfortunately, I found no other course which also {for_entry(slots, "info", ", ", " and ", name)}."
+
 template inform_byname(title)
-	"There is a course named {title}."
+	"The course I found is called: {title}."
 
-template inform_byname(title, machine_learning)
-	"There is a course named {title} and it contains machine learning topics."
+template inform_byname(title, start_date, end_date)
+	"{title} starts on {start_date} and ends on {end_date}."
 
-template inform_byname(title, machine_learning, type)
-	"There is a {type} named {title} and it contains machine learning topics."
-
-template inform_byname(title, literature, type)
-	"There is a {type} named {title} and it is about literature."
-
-template inform_byname(title, literature, language_taught, type)
-	"There is a {type} named {title} and it is about literature and taught in {language_taught}."
-
-template inform_byname(description)
-	"This is the description: {description}"
+template inform_byname(title, language_taught)
+	"The course {title} is taught in {language_taught}."
 
 template inform_byname(title, description)
-	"This is the description: {description}"
+	"{title} is the description: {description}."
+
+template inform_byname(title, ilias_link)
+	"You can find the course {title} on Ilias at {ilias_link}."
+
+# ----------- RULES --------------- #
+# Rules for System Inform
+
+function info(slot, value, name)
+
+    # binary slots either are or are NOT something
+    if value = "true": "is about {slot}"
+    if value = "false": "is not about {slot}"
+
+	# textual slots
+	if slot = "lecturers": "is taught by {capitalise_lecturer(name, value)}"
+	if slot = "semester": "is offered in \"{value}\"
+	if slot = "start_date": "start on {value}"
+	if slot = "end_date": "ends on {value}"
+	if slot = "semester_hours": "requires around {value} hours from you per week"
+	if slot = "type": "teaching style is {value}"
+	if slot = "ilias_link": " on ilias is at {value}"
+	if slot = "description": "has the following description: \"{value}\""
+	if slot = "objective": "has the following objective: \"{value}\""
+	if slot = "prerequisite": "asks you the following requirements: \"{value}\""
+	if slot = "institution": "is offered by {value}"
+	if slot = "extra_info": "contains some extra information: \"{value}\""
+	if slot = "language_taught": "is offered in {value}"
+
+	# other set slots
+	# if slot = "type"
+	#	if value = "se": "is a seminar course"
+	#	if value = "ue": "is a practical course"
+	#	if value = "vo": "is a lecture"
+	#	if value = "vu": "is a lecture with exercises"
+
+	# if slot = "turn"
+	#	if value = "sose": "is offered in the summer semester"
+	#	if value = "wise": "is offered in the winter semester"
+
+function either_or(boolean, if_true, if_false)
+	if boolean = "true": "{if_true}"
+	if boolean = "false": "{if_false}"
+
+function capitalise_lecturer(name, lecturer)
+	"{name.cap_lecturer}"
+	if name = "none": "{lecturer}"
+
+
+# ---------------------------System Request----------------------------------#
+# Request: Ask for more information from the user
 
 template request(type)
-	"What type of course are you looking for?"
+	"How do you want the course to be taught? Lecture? Seminar? Exercise?"
 
 template request(language_taught)
 	"What language should the course be taught in?"
+
+template request(institution)
+	"Which institution or department offers the course?"
+
+template request(lecturers)
+    "Do you know who teaches the course?"
+
+template request(semester_hours)
+    "How many hours do you plan to spend on the course every week?"
+
+template request(bachelor)
+	"Shall the course belong to the bachelor programme?"
+template request(master)
+	"Shall the course belong to the master programme?"
+template request(applied_nlp)
+	"Shall the course be related to applied NLP?"
+template request(linguistics)
+	"Shall the course be related to linguistics?"
+template request(speech)
+	"Shall the course be related to speech?"
+
+# ---------------------------System RequestMore------------------------------#
+# Ask the user if there is anything else the system can provide
+
+template reqmore()
+	"Can I help you with anything else?"
+
+template reqmore(lecturers)
+	if lecturers = "dontcare"
+		"Are you okay with a course taught by anyone?"
+
+template reqmore(semester_hours)
+	if semester_hours = "dontcare"
+		"I take it that you are willing to put as many hours as needed for the course?"
+
+template reqmore(language_taught)
+	if language_taught = "dontcare"
+		"I'll look for courses offered in any language then. Okay?"
+
+template reqmore(type)
+	if type = "dontcare"
+		"So, you don't have any preferences in the type of courses, do you?"
+
+template reqmore(institution):
+	if institution = "dontcare"
+		"Does it mean I should look for courses offered in any institution?"
+
+
+# ----------------------------System Confirm----------------------------------#
+# Confirm: Ask the user to confirm a proposed value for a slot
+
+template confirm()
+	"Can you be more specific about the course you're looking for?"
+
+template confirm(*slots)
+	"Okay, so the course you are looking for contains these information: {for_entry(slots, "info", ", ", " and ", "none")}, right?"
+
+
+# ---------------------------System Select----------------------------------#
+# Select: Provide the user with 2 or 3 options and ask the user to select the correct one
+
+template select(*slot)
+	"Which course do you prefer {for_entry(slot, "info_or_dontcare_list", "", "")}?"
+
+function info_or_dontcare_list(slot, value_list)
+	"{for(value_list, "info_or_dontcare", ", ", " or ", slot)}"
+
+function info_or_dontcare(value, slot)
+	"which {info(slot, value, "none")}"
+	special_case value = "dontcare": "you don't care"
+
