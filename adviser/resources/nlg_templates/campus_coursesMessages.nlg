@@ -53,6 +53,9 @@ template inform_byname(title, start_date, end_date)
 template inform_byname(title, language_taught)
 	"The course {title} is taught in {language_taught}."
 
+template inform_byname(title, type, language_taught)
+	"I found the course "{title}", which is a {type} and is taught in {language_taught}."
+
 template inform_byname(title, description)
 	"{title} is the description: {description}."
 
@@ -71,7 +74,7 @@ function info(slot, value, name)
 
 	# textual slots
 	if slot = "lecturers": "is taught by {capitalise_lecturer(name, value)}"
-	if slot = "semester": "is offered in \"{value}\"
+	if slot = "semester": "is offered in \"{value}\""
 	if slot = "start_date": "start on {value}"
 	if slot = "end_date": "ends on {value}"
 	if slot = "semester_hours": "requires around {value} hours from you per week"
