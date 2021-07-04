@@ -324,7 +324,7 @@ def download_courses_and_topics():
 if __name__ == "__main__":
 
     # db_path = '../resources/databases/campus_courses.db'
-    db_path = '../resources/databases/campus_courses_max300.db'
+    db_path = '../resources/databases/campus_courses.db'
     path_to_courses_file = '../resources/databases/courses.pk'
     path_to_topic_file = '../resources/databases/topics.txt'
 
