@@ -54,13 +54,14 @@ template inform_byname(title, language_taught)
 	"The course {title} is taught in {language_taught}."
 
 template inform_byname(title, type, language_taught)
-	"I found the course "{title}", which is a {type} and is taught in {language_taught}."
+	"I found the course {title}, which is a {type} and is taught in {language_taught}."
 
 template inform_byname(title, description)
 	"{title} is the description: {description}."
 
 template inform_byname(title, ilias_link)
 	"You can find the course {title} on Ilias at {ilias_link}."
+
 
 # ----------- RULES --------------- #
 # Rules for System Inform
@@ -186,4 +187,5 @@ function info_or_dontcare_list(slot, value_list)
 function info_or_dontcare(value, slot)
 	"which {info(slot, value, "none")}"
 	special_case value = "dontcare": "you don't care"
+	
 
