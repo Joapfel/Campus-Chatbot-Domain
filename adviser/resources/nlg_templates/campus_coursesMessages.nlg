@@ -187,5 +187,5 @@ function info_or_dontcare_list(slot, value_list)
 function info_or_dontcare(value, slot)
 	"which {info(slot, value, "none")}"
 	special_case value = "dontcare": "you don't care"
-	
+
 
