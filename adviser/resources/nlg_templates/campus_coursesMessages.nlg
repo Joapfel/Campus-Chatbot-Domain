@@ -1,6 +1,5 @@
 # Issue:
-# request topics?
-# slot != 'na'
+# slot value != 'na'
 
 # ----------------------------System Welcome-------------------------------#
 
@@ -68,6 +67,7 @@ function info(slot, value, name)
     # binary slots either are or are NOT something
     if value = "true": "is about {slot}"
     if value = "false": "is not about {slot}"
+    if value = "na": "contains no information about {slot} on Campus"
 
 	# textual slots
 	if slot = "lecturers": "is taught by {capitalise_lecturer(name, value)}"
@@ -75,7 +75,6 @@ function info(slot, value, name)
 	if slot = "start_date": "start on {value}"
 	if slot = "end_date": "ends on {value}"
 	if slot = "semester_hours": "requires around {value} hours from you per week"
-	if slot = "type": "teaching style is {value}"
 	if slot = "ilias_link": " on ilias is at {value}"
 	if slot = "description": "has the following description: \"{value}\""
 	if slot = "objective": "has the following objective: \"{value}\""
@@ -85,15 +84,30 @@ function info(slot, value, name)
 	if slot = "language_taught": "is offered in {value}"
 
 	# other set slots
-	# if slot = "type"
-	#	if value = "se": "is a seminar course"
-	#	if value = "ue": "is a practical course"
-	#	if value = "vo": "is a lecture"
-	#	if value = "vu": "is a lecture with exercises"
-
-	# if slot = "turn"
-	#	if value = "sose": "is offered in the summer semester"
-	#	if value = "wise": "is offered in the winter semester"
+	if slot = "type"
+		if value = "Additional Course": "is an additional course"
+		if value = "Advanced Seminar": "is a seminar course but at advanced level"
+		if value = "Colloquium": "is a colloquium"
+		if value = "Course": "is just a normal course"
+		if value = "Design": "on Campus says 'design' but I'm not sure what's that"
+		if value = "Exercise": "focuses on exercises than theories"
+		if value = "Field Trip": "is a field trip"
+		if value = "Graduate Seminar": "is a seminar for graduates"
+		if value = "Introduction to Scientific Methodology": "teaches you scientific methodology"
+		if value = "Introductory Seminar": "is an introductory seminar"
+		if value = "Lecture": "is delivered via lectures"
+		if value = "Lecture Exercise": "is delivered via lectures plus some exercises"
+		if value = "Lecture with Exercises": "is delivered via lectures plus some exercises"
+		if value = "Practical Training": "focuses on practical training"
+		if value = "Project Seminar": "is a seminar but with a project at the end of the course"
+		if value = "Propaedeutic": "is an introductory course to your field of studies"
+		if value = "Registration without Re-Registration": "on campus shows: {value}"
+		if value = "Seminar": "is just a normal seminar course"
+		if value = "Thesis": "involves your graduation thesis"
+		if value = "Tutorial": "is a tutorial"
+		if value = "Working Group": "asks you to work in groups"
+		if value = "Workshop": "is a workshop"
+		if value = "blended learning": "involves blending learning"
 
 function either_or(boolean, if_true, if_false)
 	if boolean = "true": "{if_true}"
@@ -108,30 +122,17 @@ function capitalise_lecturer(name, lecturer)
 # Request: Ask for more information from the user
 
 template request(type)
-	"How do you want the course to be taught? Lecture? Seminar? Exercise?"
+	"How do you want the course to be taught?"
 
 template request(language_taught)
 	"What language should the course be taught in?"
 
-template request(institution)
-	"Which institution or department offers the course?"
-
-template request(lecturers)
-    "Do you know who teaches the course?"
-
-template request(semester_hours)
-    "How many hours do you plan to spend on the course every week?"
-
-template request(bachelor)
-	"Shall the course belong to the bachelor programme?"
-template request(master)
-	"Shall the course belong to the master programme?"
-template request(applied_nlp)
-	"Shall the course be related to applied NLP?"
-template request(linguistics)
-	"Shall the course be related to linguistics?"
-template request(speech)
-	"Shall the course be related to speech?"
+#template request(institution)
+#	"Which institution or department offers the course?"
+#template request(lecturers)
+#    "Do you know who teaches the course?"
+#template request(semester_hours)
+#    "How many hours do you plan to spend on the course every week?"
 
 # ---------------------------System RequestMore------------------------------#
 # Ask the user if there is anything else the system can provide
