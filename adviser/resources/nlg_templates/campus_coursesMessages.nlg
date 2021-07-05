@@ -3,8 +3,8 @@
 
 # ----------------------------System Welcome-------------------------------#
 
-template welcomemsg(): "Hey, nice to meet you! I'm here to help you search for courses on Campus! :)"
-template welcomemsg(help): "Hmm... I don't get it. Cam you say it again please?"
+template welcomemsg(): "Hey, nice to meet you! I'm here to help you search for courses on Campus! :) What topic are you interested in?"
+template welcomemsg(help): "Hmm... I don't get it. Can you say it again please?"
 template welcomemsg(more) : "I'm happy to assist if you still have more questions :)"
 template bad() : "Sorry, your question is too complicated. Can you say it again in another way?"
 template closingmsg() : "Bye bye, I hope you find my service useful."
