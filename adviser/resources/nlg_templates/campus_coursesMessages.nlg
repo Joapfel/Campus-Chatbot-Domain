@@ -56,7 +56,7 @@ function info(slot, value, title)
     if value = "na": "contains no information about {slot} on Campus"
 
 	# textual slots
-	if slot = "lecturers": "is taught by {capitalise_lecturer(title, value)}"
+	if slot = "lecturers": "is taught by {value}"
 	if slot = "semester": "is offered in \"{value}\""
 	if slot = "start_date": "start on {value}"
 	if slot = "end_date": "ends on {value}"
@@ -100,10 +100,6 @@ function info(slot, value, title)
 function either_or(boolean, if_true, if_false)
 	if boolean = "true": "{if_true}"
 	if boolean = "false": "{if_false}"
-
-function capitalise_lecturer(title, lecturer)
-	"{title.cap_lecturer}"
-	if title = "none": "{lecturer}"
 
 
 # ---------------------------System Request----------------------------------#
