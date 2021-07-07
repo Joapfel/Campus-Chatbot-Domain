@@ -32,6 +32,19 @@ template inform_alternatives(title)
 
 #------------------------ Name Slot + Slots----------------------------------#
 
+template inform_byname(registration, title)
+	if registration = "exception": "Unfortunately I can not provide you with this information right now."
+	if registration = "not_found": "Unfortunately I couldnt find any information about the registration."
+
+template inform_byname(registration, link, title)
+	if registration = "True": "The Campus registration is still possible. Here is the link: {link}"
+	if registration = "False": "Unfortunately the Campus registration is currently not possible. You might want to double check here: {link}"
+
+template inform_byname(registration, status, course_id, title)
+	if registration = "unexpected_status": "I am not sure how to interpret the status {status}. Please contact my creator and provide the course id {course_id}."
+
+
+
 template inform_byname(title, *slots)
 	"The course {title} {for_entry(slots, "info", ", it ", " and it ", title)}."
 

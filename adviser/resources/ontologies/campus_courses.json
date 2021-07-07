@@ -2171,7 +2171,8 @@
         "communication",
         "central_office_fach\u00fcbergreifende",
         "aerodynamics",
-        "system"
+        "system",
+        "registration"
     ],
     "system_requestable": [
         "type",

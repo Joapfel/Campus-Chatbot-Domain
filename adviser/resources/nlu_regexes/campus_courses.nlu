@@ -4137,3 +4137,7 @@ rule request(aerodynamics)
 
 rule request(system)
 	"is it about system"
+
+rule request(registration)
+	"can I still register"
+	"can I still register for the course"
