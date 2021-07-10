@@ -1,6 +1,3 @@
-# Issue:
-# slot value != 'na'
-
 # ----------------------------System Welcome-------------------------------#
 
 template welcomemsg(): "Hey, nice to meet you! I'm here to help you search for courses on Campus! :) What topic are you interested in?"
@@ -32,18 +29,6 @@ template inform_alternatives(title)
 
 #------------------------ Name Slot + Slots----------------------------------#
 
-template inform_byname(registration, title)
-	if registration = "exception": "Unfortunately I can not provide you with this information right now."
-	if registration = "not_found": "Unfortunately I couldnt find any information about the registration."
-
-template inform_byname(registration, link, title)
-	if registration = "True": "The Campus registration is still possible. Here is the link: {link}"
-	if registration = "False": "Unfortunately the Campus registration is currently not possible. You might want to double check here: {link}"
-
-template inform_byname(registration, status, course_id, title)
-	if registration = "unexpected_status": "I am not sure how to interpret the status {status}. Please contact my creator and provide the course id {course_id}."
-
-
 
 template inform_byname(title, *slots)
 	"The course {title} {for_entry(slots, "info", ", it ", " and it ", title)}."
@@ -56,6 +41,14 @@ template inform_alternatives(title, *slots)
 
 	special_case title = "none"
 		"Unfortunately, I found no other course which also {for_entry(slots, "info", ", ", " and ", title)}."
+
+
+template inform_byname(registration, link, title)
+	if registration = "True": "The Campus registration is still possible. Here is the link: {link}"
+	if registration = "False": "Unfortunately the Campus registration is currently not possible. You might want to double check here: {link}"
+
+template inform_byname(registration, status, course_id, title)
+	if registration = "unexpected_status": "I am not sure how to interpret the status {status}. Please contact my creator and provide the course id {course_id}."
 
 
 # ----------- RULES --------------- #
@@ -86,6 +79,11 @@ function info(slot, value, title)
 	if slot = "institution": "is offered by {value}"
 	if slot = "extra_info": "contains some extra information: \"{value}\""
 	if slot = "language_taught": "is offered in {value}"
+
+	# info about registration
+	if slot = "registration"
+	    if value = "exception": "Unfortunately I can not provide you with this information right now."
+	    if value = "not_found": "Unfortunately I could not find any information about the registration."
 
 	# other set slots
 	if slot = "type"
