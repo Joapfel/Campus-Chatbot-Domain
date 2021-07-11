@@ -149,7 +149,8 @@ def get_topics_for_course(course: Course, topics: list) -> list:
 
 
 def check_topic_exists(course: Course, topic: str) -> bool:
-    search_fields = [course.title, course.description, course.objective, course.prerequisite, course.further_info]
+    search_fields = [course.title, course.description, course.objective, course.prerequisite,
+                     course.further_info, course.institution]
     for field in search_fields:
         if field and re.search(topic.replace('_', ' ').lower(), field.lower()):
             return True
@@ -257,9 +258,8 @@ def get_ngrams(title: list) -> Counter:
 
 
 def write_topics(topics: Counter):
-    path_to_file = '../resources/databases/topics.txt'
     out = [topic + "\t" + str(count) for topic, count in topics.most_common()]
-    with open(path_to_file, 'w', encoding='utf-8') as file:
+    with open(path_to_topic_file, 'w', encoding='utf-8') as file:
         file.write('\n'.join(out))
 
 
@@ -282,10 +282,8 @@ def load_topics() -> list:
         for line in file:
             if len(line.strip().split('\t')) == 2:
                 ngrams, count = line.strip().split('\t')
-                if int(count) >= 10 and len(ngrams) > 3 and ngrams.lower() not in sql_keys:
+                if ngrams.lower() not in sql_keys:
                     topics.append(ngrams.strip().lower())
-            if len(topics) >= 300:
-                break
     return list(set(topics))  # remove duplicates
 
 
@@ -315,7 +313,8 @@ def download_courses_and_topics():
             # insert_data_to_db(get_course_info(xml=course_xml))
         batch = api.get_next_batch_of_courses()
 
-    write_topics(topics)
+    if not os.path.exists(path_to_topic_file):
+        write_topics(topics)
     save_courses(courses)
     print('Done with {} courses'.format(courses_count))
     return courses
@@ -326,7 +325,7 @@ if __name__ == "__main__":
     # db_path = '../resources/databases/campus_courses.db'
     db_path = '../resources/databases/campus_courses.db'
     path_to_courses_file = '../resources/databases/courses.pk'
-    path_to_topic_file = '../resources/databases/topics.txt'
+    path_to_topic_file = '../resources/databases/topics_350.txt'
 
     all_courses = load_courses() if os.path.exists(path_to_courses_file) else download_courses_and_topics()
     final_topics = load_topics()  # get topics
