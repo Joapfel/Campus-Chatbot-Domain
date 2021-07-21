@@ -1,605 +1,698 @@
 {
     "binary": [
-        "american_literature_culture",
-        "romance_literature",
-        "engineering_plasma",
-        "political",
-        "schl\u00fcsselqualifikationen",
-        "industrial_manufacturing",
-        "german",
-        "exercise",
-        "quantum",
-        "fachpraktikum",
-        "information_systems",
-        "culture",
-        "literature",
-        "methoden",
-        "greek",
-        "biomaterials_biomolecular_systems",
-        "analysis_numerical",
-        "inorganic_chemistry",
-        "american_literature",
-        "software_engineering",
-        "natural_language",
-        "numerische",
-        "einf\u00fchrung",
-        "german_studies",
-        "central_facility",
-        "mechanics",
-        "institute_philosophy",
-        "anleitung_wissenschaftlichen",
-        "energetics",
-        "research",
-        "aerodynamics_gasdynamics",
-        "energy_economics_rational",
-        "institute_building_energetics",
-        "waste_management",
-        "rational_energy_use",
-        "language_center",
-        "greek_roman_world",
-        "manufacturing",
-        "institute_natural",
-        "english",
-        "german_literature",
-        "office_fach\u00fcbergreifende_schl\u00fcsselqualifikationen",
-        "institute_aerodynamics_gasdynamics",
-        "tutorium",
-        "kolloquium",
-        "sose",
-        "sports",
-        "geodesy",
-        "systems",
-        "dynamics",
-        "language_processing",
-        "seminar",
-        "modern",
-        "energy_use",
-        "energy_storage",
-        "greek_roman",
-        "writing",
-        "applied",
-        "biomolecular_systems",
-        "engineering_plasma_technology",
-        "storage",
-        "economics_rational_energy",
-        "modelling",
-        "roman",
-        "engineering_geodesy",
-        "chemistry",
-        "semiconductor",
-        "economics",
-        "materials_science",
-        "facility_language_center",
-        "analysis",
-        "process_engineering",
-        "structural",
-        "anleitung_wissenschaftlichen_arbeiten",
-        "civil",
-        "metal",
-        "machine",
-        "technologies",
-        "components",
-        "computing",
-        "institute_interfacial",
-        "building_energetics_thermotechnology",
-        "\u00fcbung",
-        "construction",
-        "institute_sports",
-        "central_office",
-        "building_energetics",
-        "modeling",
-        "facility_language",
-        "gasdynamics",
-        "institute_automotive_engineering",
-        "management_emissions",
-        "institute",
-        "wissenschaftlichen",
-        "grundlagen",
-        "institutes_facilities_institutes",
-        "materials",
-        "modern_german_literature",
-        "manufacturing_management",
-        "literatures_cultures",
-        "theoretical",
-        "institute_engineering_geodesy",
-        "mathematik",
-        "theorie",
-        "history_greek",
-        "analysis_dynamics_modeling",
-        "organic_chemistry",
-        "flight",
-        "teil",
-        "institute_automotive",
-        "french",
-        "philosophy",
-        "institute_interfacial_process",
-        "french_literatures",
-        "thermotechnology_energy_storage",
-        "space",
-        "sports_science",
-        "modern_german",
-        "dynamics_modeling",
-        "electrical",
-        "advanced",
-        "planning",
-        "analysis_dynamics",
-        "science",
-        "computer_science",
-        "processing",
-        "schreibwerkstatt",
-        "design",
-        "computer",
-        "institutes_mathematics",
-        "institute_aircraft",
-        "physical",
-        "industrial_manufacturing_management",
-        "vocational",
-        "photogrammetry",
-        "public",
-        "institutes_facilities",
-        "romanistik",
-        "chemie",
-        "institute_inorganic",
-        "literature_french",
-        "applied_analysis_numerical",
-        "analyse",
-        "organic",
-        "natural",
-        "fach\u00fcbergreifende_schl\u00fcsselqualifikationen",
-        "rational_energy",
-        "office_fach\u00fcbergreifende",
-        "world",
-        "engineering",
-        "applied_analysis",
-        "space_systems",
-        "aerospace",
-        "rational",
-        "simulation",
-        "thermodynamics",
-        "hydraulic",
-        "testing",
-        "roman_world",
-        "institute_energy_economics",
-        "business",
-        "institute_construction",
-        "algebra",
-        "interfacial",
-        "informatik",
-        "aircraft_design",
-        "thermotechnology_energy",
-        "software",
-        "natural_language_processing",
-        "education",
-        "center",
-        "institute_industrial_manufacturing",
-        "geschichte",
-        "civil_engineering",
-        "power",
-        "praktikum",
-        "technology",
-        "studies",
-        "waste",
-        "vocational_education",
-        "information",
-        "theoretische",
-        "institute_aircraft_design",
-        "plasma",
-        "central_facility_language",
-        "inorganic",
-        "bachelor",
-        "deutsch",
-        "physics",
-        "building",
-        "industrial",
         "teaching",
-        "institute_engineering",
-        "fach\u00fcbergreifende",
-        "institute_building",
-        "vorlesung",
-        "praktische",
-        "institute_machine",
-        "literatures",
-        "lecture",
-        "waste_management_emissions",
-        "institute_energy",
-        "\u00fcbungen",
-        "numerical_simulation",
-        "control",
-        "institute_aerospace",
-        "aircraft",
-        "office",
-        "international",
-        "department",
-        "methods",
-        "theory",
-        "institute_biomaterials_biomolecular",
-        "central",
-        "biomolecular",
-        "institute_natural_language",
-        "energy_economics",
-        "thermotechnology",
-        "institute_analysis_dynamics",
-        "romance",
-        "institute_inorganic_chemistry",
-        "navigation",
-        "combustion",
-        "process",
-        "biomaterials_biomolecular",
-        "aerospace_thermodynamics",
-        "institute_power",
-        "history",
-        "energy",
-        "automotive_engineering",
-        "institute_applied_analysis",
-        "institute_biomaterials",
-        "learning",
-        "american",
-        "englisch",
-        "energetics_thermotechnology",
-        "institute_organic_chemistry",
-        "institute_photogrammetry",
-        "institutes_physics",
-        "facility",
-        "economics_rational",
-        "institute_sports_science",
-        "human",
-        "mathematics",
-        "theoretical_economics",
-        "fachdidaktik",
-        "arbeiten",
-        "sociology",
-        "structures",
-        "literature_culture",
-        "language",
-        "environmental",
-        "literature_ii",
-        "doktoranden",
-        "physik",
-        "institute_applied",
-        "apmb",
-        "medieval",
-        "institute_analysis",
-        "facilities_institutes",
-        "institute_combustion",
-        "biochemistry",
-        "cultures",
-        "automotive",
-        "facilities",
-        "institute_aerospace_thermodynamics",
-        "mechanik",
-        "technical",
-        "interfacial_process",
-        "systeme",
-        "english_studies",
-        "wissenschaftlichen_arbeiten",
-        "biomaterials",
-        "institute_industrial",
-        "numerical",
-        "institute_space_systems",
-        "modern_history",
-        "facilities_institutes_physics",
-        "institute_organic",
-        "romance_literature_french",
-        "management",
-        "institute_aerodynamics",
-        "institute_space",
-        "process_engineering_plasma",
-        "energetics_thermotechnology_energy",
-        "analysis_numerical_simulation",
-        "high",
-        "plasma_technology",
-        "institutes",
-        "anleitung",
-        "technische",
-        "interfacial_process_engineering",
-        "history_greek_roman",
-        "emissions",
-        "institute_electrical",
-        "computational",
-        "communication",
-        "central_office_fach\u00fcbergreifende",
-        "aerodynamics",
-        "system",
-        "american_literature_culture",
-        "romance_literature",
-        "engineering_plasma",
-        "political",
-        "schl\u00fcsselqualifikationen",
-        "industrial_manufacturing",
-        "german",
-        "exercise",
-        "quantum",
-        "fachpraktikum",
-        "information_systems",
-        "culture",
-        "literature",
-        "methoden",
-        "greek",
-        "biomaterials_biomolecular_systems",
-        "analysis_numerical",
-        "inorganic_chemistry",
-        "american_literature",
-        "software_engineering",
-        "natural_language",
-        "numerische",
-        "einf\u00fchrung",
-        "german_studies",
-        "central_facility",
-        "mechanics",
-        "institute_philosophy",
-        "anleitung_wissenschaftlichen",
-        "energetics",
-        "research",
-        "aerodynamics_gasdynamics",
-        "energy_economics_rational",
-        "institute_building_energetics",
-        "waste_management",
-        "rational_energy_use",
-        "language_center",
-        "greek_roman_world",
-        "manufacturing",
-        "institute_natural",
-        "english",
-        "german_literature",
-        "office_fach\u00fcbergreifende_schl\u00fcsselqualifikationen",
-        "institute_aerodynamics_gasdynamics",
-        "tutorium",
-        "kolloquium",
-        "sose",
-        "sports",
-        "geodesy",
-        "systems",
-        "dynamics",
-        "language_processing",
-        "seminar",
-        "modern",
-        "energy_use",
-        "energy_storage",
-        "greek_roman",
-        "writing",
-        "applied",
-        "biomolecular_systems",
-        "engineering_plasma_technology",
-        "storage",
-        "economics_rational_energy",
-        "modelling",
-        "roman",
-        "engineering_geodesy",
-        "chemistry",
-        "semiconductor",
-        "economics",
-        "materials_science",
-        "facility_language_center",
-        "analysis",
-        "process_engineering",
-        "structural",
-        "anleitung_wissenschaftlichen_arbeiten",
-        "civil",
-        "metal",
-        "machine",
-        "technologies",
-        "components",
-        "computing",
-        "institute_interfacial",
-        "building_energetics_thermotechnology",
-        "\u00fcbung",
-        "construction",
-        "institute_sports",
-        "central_office",
-        "building_energetics",
-        "modeling",
-        "facility_language",
-        "gasdynamics",
-        "institute_automotive_engineering",
-        "management_emissions",
-        "institute",
-        "wissenschaftlichen",
-        "grundlagen",
-        "institutes_facilities_institutes",
-        "materials",
-        "modern_german_literature",
-        "manufacturing_management",
-        "literatures_cultures",
-        "theoretical",
-        "institute_engineering_geodesy",
+        "statistik",
         "mathematik",
-        "theorie",
-        "history_greek",
-        "analysis_dynamics_modeling",
-        "organic_chemistry",
-        "flight",
-        "teil",
-        "institute_automotive",
-        "french",
-        "philosophy",
-        "institute_interfacial_process",
-        "french_literatures",
-        "thermotechnology_energy_storage",
-        "space",
-        "sports_science",
-        "modern_german",
-        "dynamics_modeling",
-        "electrical",
-        "advanced",
-        "planning",
-        "analysis_dynamics",
-        "science",
-        "computer_science",
-        "processing",
-        "schreibwerkstatt",
-        "design",
-        "computer",
-        "institutes_mathematics",
-        "institute_aircraft",
-        "physical",
-        "industrial_manufacturing_management",
-        "vocational",
-        "photogrammetry",
-        "public",
-        "institutes_facilities",
-        "romanistik",
-        "chemie",
-        "institute_inorganic",
-        "literature_french",
-        "applied_analysis_numerical",
-        "analyse",
-        "organic",
-        "natural",
-        "fach\u00fcbergreifende_schl\u00fcsselqualifikationen",
-        "rational_energy",
-        "office_fach\u00fcbergreifende",
-        "world",
-        "engineering",
-        "applied_analysis",
-        "space_systems",
-        "aerospace",
-        "rational",
-        "simulation",
+        "baustatik",
+        "biology",
+        "manufacturing",
+        "stochastics",
+        "experimentalphysik",
+        "roman",
+        "luft",
         "thermodynamics",
-        "hydraulic",
-        "testing",
-        "roman_world",
-        "institute_energy_economics",
-        "business",
-        "institute_construction",
-        "algebra",
-        "interfacial",
-        "informatik",
-        "aircraft_design",
-        "thermotechnology_energy",
-        "software",
-        "natural_language_processing",
-        "education",
-        "center",
-        "institute_industrial_manufacturing",
-        "geschichte",
-        "civil_engineering",
-        "power",
-        "praktikum",
-        "technology",
-        "studies",
-        "waste",
-        "vocational_education",
-        "information",
-        "theoretische",
-        "institute_aircraft_design",
-        "plasma",
-        "central_facility_language",
-        "inorganic",
-        "bachelor",
-        "deutsch",
-        "physics",
-        "building",
-        "industrial",
-        "teaching",
-        "institute_engineering",
-        "fach\u00fcbergreifende",
-        "institute_building",
-        "vorlesung",
-        "praktische",
-        "institute_machine",
-        "literatures",
-        "lecture",
-        "waste_management_emissions",
-        "institute_energy",
-        "\u00fcbungen",
-        "numerical_simulation",
-        "control",
-        "institute_aerospace",
-        "aircraft",
-        "office",
-        "international",
-        "department",
-        "methods",
-        "theory",
-        "institute_biomaterials_biomolecular",
-        "central",
-        "biomolecular",
-        "institute_natural_language",
-        "energy_economics",
-        "thermotechnology",
-        "institute_analysis_dynamics",
-        "romance",
-        "institute_inorganic_chemistry",
-        "navigation",
-        "combustion",
-        "process",
-        "biomaterials_biomolecular",
-        "aerospace_thermodynamics",
-        "institute_power",
-        "history",
-        "energy",
-        "automotive_engineering",
-        "institute_applied_analysis",
-        "institute_biomaterials",
-        "learning",
-        "american",
-        "englisch",
-        "energetics_thermotechnology",
-        "institute_organic_chemistry",
-        "institute_photogrammetry",
-        "institutes_physics",
-        "facility",
-        "economics_rational",
-        "institute_sports_science",
-        "human",
-        "mathematics",
-        "theoretical_economics",
-        "fachdidaktik",
-        "arbeiten",
-        "sociology",
-        "structures",
-        "literature_culture",
-        "language",
-        "environmental",
-        "literature_ii",
-        "doktoranden",
-        "physik",
-        "institute_applied",
-        "apmb",
-        "medieval",
-        "institute_analysis",
-        "facilities_institutes",
-        "institute_combustion",
-        "biochemistry",
-        "cultures",
-        "automotive",
-        "facilities",
-        "institute_aerospace_thermodynamics",
-        "mechanik",
-        "technical",
-        "interfacial_process",
-        "systeme",
-        "english_studies",
-        "wissenschaftlichen_arbeiten",
-        "biomaterials",
-        "institute_industrial",
-        "numerical",
-        "institute_space_systems",
-        "modern_history",
-        "facilities_institutes_physics",
-        "institute_organic",
-        "romance_literature_french",
-        "management",
-        "institute_aerodynamics",
-        "institute_space",
-        "process_engineering_plasma",
-        "energetics_thermotechnology_energy",
-        "analysis_numerical_simulation",
-        "high",
-        "plasma_technology",
-        "institutes",
-        "anleitung",
-        "technische",
-        "interfacial_process_engineering",
-        "history_greek_roman",
-        "emissions",
-        "institute_electrical",
-        "computational",
+        "literature",
+        "automation",
+        "kunst",
+        "distributed_systems",
+        "semantics",
+        "political_science",
         "communication",
-        "central_office_fach\u00fcbergreifende",
+        "volkswirtschaftliches",
+        "electronics",
+        "mechanics",
+        "fabrikbetriebslehre",
+        "energetics",
+        "werkzeugmaschinen",
+        "space",
+        "informatik",
+        "technology",
+        "turbomachinery",
+        "medieval",
+        "business_administration",
+        "design",
+        "programming",
+        "energy_systems",
+        "business",
+        "digital_humanities",
+        "mechanical",
+        "flight_mechanics",
+        "qualitative_sozialforschung",
+        "geodesy",
+        "interfacial_process",
+        "databases",
+        "culture",
+        "machinery",
+        "modellierung",
+        "supply_management",
+        "plasma",
+        "architektur",
+        "fiber",
+        "networks",
+        "strategic_management",
+        "german_studies",
+        "elektrodynamik",
+        "security",
+        "deep_learning",
+        "urban_planning",
+        "parallel_systems",
+        "energy_economics",
+        "kraftfahrzeugmechatronik",
+        "elektrotechnik",
+        "nachhaltigkeit",
+        "industrial_design",
+        "nuclear",
+        "conceptual_design",
+        "romanistik",
+        "finance",
+        "photogrammetry",
+        "aircraft",
+        "marketing",
+        "applied_optics",
+        "molekularbiologie",
+        "lineare_algebra",
+        "biomolecular",
+        "operations",
+        "applied_mechanics",
+        "biochemie",
+        "humanities",
+        "analyse",
+        "german_literature",
+        "numerical_analysis",
+        "physics",
+        "biologie",
+        "thermotechnology",
+        "philosophie",
+        "geotechnical",
+        "electrical",
+        "biochemical",
+        "flugzeugaerodynamik",
+        "aerospace",
+        "technik",
+        "wirtschaftsinformatik",
+        "fluid_mechanics",
+        "robotics",
+        "russisch",
+        "astrophysik",
+        "elektromagnetische",
+        "nanotechnologie",
+        "entwicklung",
+        "luftreinhaltung",
+        "english",
+        "energiesysteme",
+        "elektrische",
+        "civil_engineering",
+        "writing",
+        "algorithmen",
+        "technische_mechanik",
+        "optics",
+        "storage",
+        "datenanalyse",
+        "simulation_sciences",
+        "recycling",
+        "radio",
+        "morphologie",
+        "law",
+        "softwaretechnik",
+        "modern_history",
+        "prop\u00e4deutikum",
+        "engineering",
+        "computational_cognitive",
+        "japanisch",
+        "hydromechanics",
+        "economics",
+        "statics",
+        "analytic_computing",
+        "plant",
+        "voltage",
+        "organic",
+        "waste_management",
+        "flugzeugentwurf",
+        "art_history",
+        "art",
+        "environmental_sociology",
+        "fahrzeugantriebe",
+        "bauteilpr\u00fcfung",
+        "structural_mechanics",
+        "film",
+        "signal_processing",
+        "cell",
+        "spectroscopy",
+        "computational_mechanics",
+        "werkstoffe",
+        "elektronik",
+        "didaktik",
+        "wissenschaft",
+        "genetics",
+        "quantum",
+        "evolution",
+        "konstruktion",
+        "geohydrology",
+        "composites",
+        "public_law",
+        "water_resources",
+        "computational",
+        "computer_science",
+        "production",
+        "hydrochemistry",
+        "food",
+        "logistik",
+        "semantik",
+        "bauen",
+        "nano",
+        "simtech",
+        "ingenieure",
+        "anorganische",
+        "automatisierungstechnik",
+        "phonetic",
+        "contemporary_art",
+        "computer_vision",
+        "maschinen",
+        "medical",
+        "spanisch",
+        "human_computer_interaction",
+        "chemie",
+        "bautechnik",
+        "cognitive_science",
+        "biomechanik",
+        "corporate",
+        "konstruktionslehre",
+        "rechnungswesen",
+        "linguistics",
+        "german",
+        "telecommunications",
+        "energiewandlung",
+        "atomic",
+        "philology",
+        "reliability",
+        "\u00f6kologie",
         "aerodynamics",
-        "system"
+        "mathematics",
+        "deutsch",
+        "data_science",
+        "energy_conversion",
+        "analysis",
+        "latein",
+        "energie",
+        "language",
+        "information_security",
+        "betrieb",
+        "translation",
+        "numerical_simulation",
+        "fernerkundung",
+        "international_relations",
+        "architecture",
+        "molekulare",
+        "sprache",
+        "robust",
+        "microeconomics",
+        "propulsion_systems",
+        "topology",
+        "academic_writing",
+        "microelectronics",
+        "french",
+        "produktentwicklung",
+        "thermodynamik",
+        "italian",
+        "software_engineering",
+        "fremdsprache",
+        "structural_design",
+        "geometry",
+        "integration",
+        "ceramic",
+        "software",
+        "messtechnik",
+        "greek",
+        "turbomaschinen",
+        "machine_learning",
+        "biochemistry",
+        "data_engineering",
+        "history",
+        "biological",
+        "technologiemanagement",
+        "education",
+        "physik",
+        "romance",
+        "biomechanical",
+        "polymer",
+        "microbiology",
+        "feinwerktechnik",
+        "biomedical",
+        "verfahrenstechnik",
+        "materials_science",
+        "sozialforschung",
+        "bwl",
+        "anlagen",
+        "speech",
+        "nichtlineare",
+        "construction_management",
+        "mathematische",
+        "management",
+        "soziologische",
+        "lexicon",
+        "automation_software",
+        "natural_language_processing",
+        "frequency_technology",
+        "chinesisch",
+        "accounting",
+        "emissions",
+        "sensors",
+        "virtual_reality",
+        "innovation",
+        "raumfahrt",
+        "luftfahrtsysteme",
+        "navigation",
+        "hydrosystems",
+        "algebra",
+        "informationssysteme",
+        "philosophy",
+        "englisch",
+        "regelungstechnik",
+        "programmierung",
+        "mikrosysteme",
+        "immunology",
+        "politics",
+        "umformtechnik",
+        "number_theory",
+        "aeronautical",
+        "technologies",
+        "bauphysik",
+        "visualisierung",
+        "embedded_systems",
+        "energy",
+        "optical",
+        "gasdynamics",
+        "construction_materials",
+        "german_philology",
+        "chemistry",
+        "inorganic",
+        "ecology",
+        "geometrie",
+        "english_studies",
+        "dialogsysteme",
+        "planung",
+        "algorithmik",
+        "automotive_engineering",
+        "generale",
+        "landeskunde",
+        "data",
+        "laser",
+        "verbindungstechnik",
+        "information_systems",
+        "phraseology",
+        "american_literature",
+        "transportation",
+        "logistics",
+        "sustainability",
+        "modeling",
+        "biomaterials",
+        "hydraulic",
+        "textile",
+        "environmental_systems",
+        "makro\u00f6konomik",
+        "syntax",
+        "franz\u00f6sisch",
+        "transmission",
+        "mechanik",
+        "sports",
+        "materialwissenschaft",
+        "massivumformung",
+        "power_transmission",
+        "mikrobiologie",
+        "science",
+        "entwerfen",
+        "sociology",
+        "smart_sensors",
+        "handling",
+        "geschichte",
+        "polymerchemistry",
+        "intelligent_systems",
+        "raumfahrttechnik",
+        "gesellschaft",
+        "schreiben",
+        "acoustics",
+        "nachrichtentechnik",
+        "entrepreneurship",
+        "optimierung",
+        "grammatik",
+        "semiconductor",
+        "cultures",
+        "geometric",
+        "computerbasiertes",
+        "administration",
+        "hydrobiology",
+        "microintegration",
+        "electrical_energy",
+        "teaching",
+        "statistik",
+        "mathematik",
+        "baustatik",
+        "biology",
+        "manufacturing",
+        "stochastics",
+        "experimentalphysik",
+        "roman",
+        "luft",
+        "thermodynamics",
+        "literature",
+        "automation",
+        "kunst",
+        "distributed_systems",
+        "semantics",
+        "political_science",
+        "communication",
+        "volkswirtschaftliches",
+        "electronics",
+        "mechanics",
+        "fabrikbetriebslehre",
+        "energetics",
+        "werkzeugmaschinen",
+        "space",
+        "informatik",
+        "technology",
+        "turbomachinery",
+        "medieval",
+        "business_administration",
+        "design",
+        "programming",
+        "energy_systems",
+        "business",
+        "digital_humanities",
+        "mechanical",
+        "flight_mechanics",
+        "qualitative_sozialforschung",
+        "geodesy",
+        "interfacial_process",
+        "databases",
+        "culture",
+        "machinery",
+        "modellierung",
+        "supply_management",
+        "plasma",
+        "architektur",
+        "fiber",
+        "networks",
+        "strategic_management",
+        "german_studies",
+        "elektrodynamik",
+        "security",
+        "deep_learning",
+        "urban_planning",
+        "parallel_systems",
+        "energy_economics",
+        "kraftfahrzeugmechatronik",
+        "elektrotechnik",
+        "nachhaltigkeit",
+        "industrial_design",
+        "nuclear",
+        "conceptual_design",
+        "romanistik",
+        "finance",
+        "photogrammetry",
+        "aircraft",
+        "marketing",
+        "applied_optics",
+        "molekularbiologie",
+        "lineare_algebra",
+        "biomolecular",
+        "operations",
+        "applied_mechanics",
+        "biochemie",
+        "humanities",
+        "analyse",
+        "german_literature",
+        "numerical_analysis",
+        "physics",
+        "biologie",
+        "thermotechnology",
+        "philosophie",
+        "geotechnical",
+        "electrical",
+        "biochemical",
+        "flugzeugaerodynamik",
+        "aerospace",
+        "technik",
+        "wirtschaftsinformatik",
+        "fluid_mechanics",
+        "robotics",
+        "russisch",
+        "astrophysik",
+        "elektromagnetische",
+        "nanotechnologie",
+        "entwicklung",
+        "luftreinhaltung",
+        "english",
+        "energiesysteme",
+        "elektrische",
+        "civil_engineering",
+        "writing",
+        "algorithmen",
+        "technische_mechanik",
+        "optics",
+        "storage",
+        "datenanalyse",
+        "simulation_sciences",
+        "recycling",
+        "radio",
+        "morphologie",
+        "law",
+        "softwaretechnik",
+        "modern_history",
+        "prop\u00e4deutikum",
+        "engineering",
+        "computational_cognitive",
+        "japanisch",
+        "hydromechanics",
+        "economics",
+        "statics",
+        "analytic_computing",
+        "plant",
+        "voltage",
+        "organic",
+        "waste_management",
+        "flugzeugentwurf",
+        "art_history",
+        "art",
+        "environmental_sociology",
+        "fahrzeugantriebe",
+        "bauteilpr\u00fcfung",
+        "structural_mechanics",
+        "film",
+        "signal_processing",
+        "cell",
+        "spectroscopy",
+        "computational_mechanics",
+        "werkstoffe",
+        "elektronik",
+        "didaktik",
+        "wissenschaft",
+        "genetics",
+        "quantum",
+        "evolution",
+        "konstruktion",
+        "geohydrology",
+        "composites",
+        "public_law",
+        "water_resources",
+        "computational",
+        "computer_science",
+        "production",
+        "hydrochemistry",
+        "food",
+        "logistik",
+        "semantik",
+        "bauen",
+        "nano",
+        "simtech",
+        "ingenieure",
+        "anorganische",
+        "automatisierungstechnik",
+        "phonetic",
+        "contemporary_art",
+        "computer_vision",
+        "maschinen",
+        "medical",
+        "spanisch",
+        "human_computer_interaction",
+        "chemie",
+        "bautechnik",
+        "cognitive_science",
+        "biomechanik",
+        "corporate",
+        "konstruktionslehre",
+        "rechnungswesen",
+        "linguistics",
+        "german",
+        "telecommunications",
+        "energiewandlung",
+        "atomic",
+        "philology",
+        "reliability",
+        "\u00f6kologie",
+        "aerodynamics",
+        "mathematics",
+        "deutsch",
+        "data_science",
+        "energy_conversion",
+        "analysis",
+        "latein",
+        "energie",
+        "language",
+        "information_security",
+        "betrieb",
+        "translation",
+        "numerical_simulation",
+        "fernerkundung",
+        "international_relations",
+        "architecture",
+        "molekulare",
+        "sprache",
+        "robust",
+        "microeconomics",
+        "propulsion_systems",
+        "topology",
+        "academic_writing",
+        "microelectronics",
+        "french",
+        "produktentwicklung",
+        "thermodynamik",
+        "italian",
+        "software_engineering",
+        "fremdsprache",
+        "structural_design",
+        "geometry",
+        "integration",
+        "ceramic",
+        "software",
+        "messtechnik",
+        "greek",
+        "turbomaschinen",
+        "machine_learning",
+        "biochemistry",
+        "data_engineering",
+        "history",
+        "biological",
+        "technologiemanagement",
+        "education",
+        "physik",
+        "romance",
+        "biomechanical",
+        "polymer",
+        "microbiology",
+        "feinwerktechnik",
+        "biomedical",
+        "verfahrenstechnik",
+        "materials_science",
+        "sozialforschung",
+        "bwl",
+        "anlagen",
+        "speech",
+        "nichtlineare",
+        "construction_management",
+        "mathematische",
+        "management",
+        "soziologische",
+        "lexicon",
+        "automation_software",
+        "natural_language_processing",
+        "frequency_technology",
+        "chinesisch",
+        "accounting",
+        "emissions",
+        "sensors",
+        "virtual_reality",
+        "innovation",
+        "raumfahrt",
+        "luftfahrtsysteme",
+        "navigation",
+        "hydrosystems",
+        "algebra",
+        "informationssysteme",
+        "philosophy",
+        "englisch",
+        "regelungstechnik",
+        "programmierung",
+        "mikrosysteme",
+        "immunology",
+        "politics",
+        "umformtechnik",
+        "number_theory",
+        "aeronautical",
+        "technologies",
+        "bauphysik",
+        "visualisierung",
+        "embedded_systems",
+        "energy",
+        "optical",
+        "gasdynamics",
+        "construction_materials",
+        "german_philology",
+        "chemistry",
+        "inorganic",
+        "ecology",
+        "geometrie",
+        "english_studies",
+        "dialogsysteme",
+        "planung",
+        "algorithmik",
+        "automotive_engineering",
+        "generale",
+        "landeskunde",
+        "data",
+        "laser",
+        "verbindungstechnik",
+        "information_systems",
+        "phraseology",
+        "american_literature",
+        "transportation",
+        "logistics",
+        "sustainability",
+        "modeling",
+        "biomaterials",
+        "hydraulic",
+        "textile",
+        "environmental_systems",
+        "makro\u00f6konomik",
+        "syntax",
+        "franz\u00f6sisch",
+        "transmission",
+        "mechanik",
+        "sports",
+        "materialwissenschaft",
+        "massivumformung",
+        "power_transmission",
+        "mikrobiologie",
+        "science",
+        "entwerfen",
+        "sociology",
+        "smart_sensors",
+        "handling",
+        "geschichte",
+        "polymerchemistry",
+        "intelligent_systems",
+        "raumfahrttechnik",
+        "gesellschaft",
+        "schreiben",
+        "acoustics",
+        "nachrichtentechnik",
+        "entrepreneurship",
+        "optimierung",
+        "grammatik",
+        "semiconductor",
+        "cultures",
+        "geometric",
+        "computerbasiertes",
+        "administration",
+        "hydrobiology",
+        "microintegration",
+        "electrical_energy",
+        "combustion_power",
+        "construction_design",
+        "electrical_optical",
+        "engineering_plasma",
+        "physikalchemie",
+        "railway_transportation",
+        "sociology_technology"
     ],
     "discourseAct": [
         "ack",
@@ -610,7 +703,19 @@
         "bad"
     ],
     "informable": {
-        "advanced": [
+        "academic_writing": [
+            "false",
+            "true"
+        ],
+        "accounting": [
+            "false",
+            "true"
+        ],
+        "acoustics": [
+            "false",
+            "true"
+        ],
+        "administration": [
             "false",
             "true"
         ],
@@ -618,7 +723,7 @@
             "false",
             "true"
         ],
-        "aerodynamics_gasdynamics": [
+        "aeronautical": [
             "false",
             "true"
         ],
@@ -626,15 +731,7 @@
             "false",
             "true"
         ],
-        "aerospace_thermodynamics": [
-            "false",
-            "true"
-        ],
         "aircraft": [
-            "false",
-            "true"
-        ],
-        "aircraft_design": [
             "false",
             "true"
         ],
@@ -642,15 +739,15 @@
             "false",
             "true"
         ],
-        "american": [
+        "algorithmen": [
+            "false",
+            "true"
+        ],
+        "algorithmik": [
             "false",
             "true"
         ],
         "american_literature": [
-            "false",
-            "true"
-        ],
-        "american_literature_culture": [
             "false",
             "true"
         ],
@@ -662,55 +759,59 @@
             "false",
             "true"
         ],
-        "analysis_dynamics": [
+        "analytic_computing": [
             "false",
             "true"
         ],
-        "analysis_dynamics_modeling": [
+        "anlagen": [
             "false",
             "true"
         ],
-        "analysis_numerical": [
+        "anorganische": [
             "false",
             "true"
         ],
-        "analysis_numerical_simulation": [
+        "applied_mechanics": [
             "false",
             "true"
         ],
-        "anleitung": [
+        "applied_optics": [
             "false",
             "true"
         ],
-        "anleitung_wissenschaftlichen": [
+        "architecture": [
             "false",
             "true"
         ],
-        "anleitung_wissenschaftlichen_arbeiten": [
+        "architektur": [
             "false",
             "true"
         ],
-        "apmb": [
+        "art": [
             "false",
             "true"
         ],
-        "applied": [
+        "art_history": [
             "false",
             "true"
         ],
-        "applied_analysis": [
+        "astrophysik": [
             "false",
             "true"
         ],
-        "applied_analysis_numerical": [
+        "atomic": [
             "false",
             "true"
         ],
-        "arbeiten": [
+        "automation": [
             "false",
             "true"
         ],
-        "automotive": [
+        "automation_software": [
+            "false",
+            "true"
+        ],
+        "automatisierungstechnik": [
             "false",
             "true"
         ],
@@ -718,7 +819,35 @@
             "false",
             "true"
         ],
-        "bachelor": [
+        "bauen": [
+            "false",
+            "true"
+        ],
+        "bauphysik": [
+            "false",
+            "true"
+        ],
+        "baustatik": [
+            "false",
+            "true"
+        ],
+        "bautechnik": [
+            "false",
+            "true"
+        ],
+        "bauteilpr\u00fcfung": [
+            "false",
+            "true"
+        ],
+        "betrieb": [
+            "false",
+            "true"
+        ],
+        "biochemical": [
+            "false",
+            "true"
+        ],
+        "biochemie": [
             "false",
             "true"
         ],
@@ -726,15 +855,31 @@
             "false",
             "true"
         ],
+        "biological": [
+            "false",
+            "true"
+        ],
+        "biologie": [
+            "false",
+            "true"
+        ],
+        "biology": [
+            "false",
+            "true"
+        ],
         "biomaterials": [
             "false",
             "true"
         ],
-        "biomaterials_biomolecular": [
+        "biomechanical": [
             "false",
             "true"
         ],
-        "biomaterials_biomolecular_systems": [
+        "biomechanik": [
+            "false",
+            "true"
+        ],
+        "biomedical": [
             "false",
             "true"
         ],
@@ -742,47 +887,23 @@
             "false",
             "true"
         ],
-        "biomolecular_systems": [
-            "false",
-            "true"
-        ],
-        "building": [
-            "false",
-            "true"
-        ],
-        "building_energetics": [
-            "false",
-            "true"
-        ],
-        "building_energetics_thermotechnology": [
-            "false",
-            "true"
-        ],
         "business": [
             "false",
             "true"
         ],
-        "center": [
+        "business_administration": [
             "false",
             "true"
         ],
-        "central": [
+        "bwl": [
             "false",
             "true"
         ],
-        "central_facility": [
+        "cell": [
             "false",
             "true"
         ],
-        "central_facility_language": [
-            "false",
-            "true"
-        ],
-        "central_office": [
-            "false",
-            "true"
-        ],
-        "central_office_fach\u00fcbergreifende": [
+        "ceramic": [
             "false",
             "true"
         ],
@@ -794,7 +915,7 @@
             "false",
             "true"
         ],
-        "civil": [
+        "chinesisch": [
             "false",
             "true"
         ],
@@ -802,15 +923,19 @@
             "false",
             "true"
         ],
-        "combustion": [
+        "cognitive_science": [
             "false",
             "true"
+        ],
+        "combustion_power": [
+            "true",
+            "false"
         ],
         "communication": [
             "false",
             "true"
         ],
-        "components": [
+        "composites": [
             "false",
             "true"
         ],
@@ -818,7 +943,11 @@
             "false",
             "true"
         ],
-        "computer": [
+        "computational_cognitive": [
+            "false",
+            "true"
+        ],
+        "computational_mechanics": [
             "false",
             "true"
         ],
@@ -826,15 +955,35 @@
             "false",
             "true"
         ],
-        "computing": [
+        "computer_vision": [
             "false",
             "true"
         ],
-        "construction": [
+        "computerbasiertes": [
             "false",
             "true"
         ],
-        "control": [
+        "conceptual_design": [
+            "false",
+            "true"
+        ],
+        "construction_design": [
+            "true",
+            "false"
+        ],
+        "construction_management": [
+            "false",
+            "true"
+        ],
+        "construction_materials": [
+            "false",
+            "true"
+        ],
+        "contemporary_art": [
+            "false",
+            "true"
+        ],
+        "corporate": [
             "false",
             "true"
         ],
@@ -846,7 +995,27 @@
             "false",
             "true"
         ],
-        "department": [
+        "data": [
+            "false",
+            "true"
+        ],
+        "data_engineering": [
+            "false",
+            "true"
+        ],
+        "data_science": [
+            "false",
+            "true"
+        ],
+        "databases": [
+            "false",
+            "true"
+        ],
+        "datenanalyse": [
+            "false",
+            "true"
+        ],
+        "deep_learning": [
             "false",
             "true"
         ],
@@ -858,15 +1027,23 @@
             "false",
             "true"
         ],
-        "doktoranden": [
+        "dialogsysteme": [
             "false",
             "true"
         ],
-        "dynamics": [
+        "didaktik": [
             "false",
             "true"
         ],
-        "dynamics_modeling": [
+        "digital_humanities": [
+            "false",
+            "true"
+        ],
+        "distributed_systems": [
+            "false",
+            "true"
+        ],
+        "ecology": [
             "false",
             "true"
         ],
@@ -874,23 +1051,47 @@
             "false",
             "true"
         ],
-        "economics_rational": [
-            "false",
-            "true"
-        ],
-        "economics_rational_energy": [
-            "false",
-            "true"
-        ],
         "education": [
             "false",
             "true"
         ],
-        "einf\u00fchrung": [
+        "electrical": [
             "false",
             "true"
         ],
-        "electrical": [
+        "electrical_energy": [
+            "false",
+            "true"
+        ],
+        "electrical_optical": [
+            "true",
+            "false"
+        ],
+        "electronics": [
+            "false",
+            "true"
+        ],
+        "elektrische": [
+            "false",
+            "true"
+        ],
+        "elektrodynamik": [
+            "false",
+            "true"
+        ],
+        "elektromagnetische": [
+            "false",
+            "true"
+        ],
+        "elektronik": [
+            "false",
+            "true"
+        ],
+        "elektrotechnik": [
+            "false",
+            "true"
+        ],
+        "embedded_systems": [
             "false",
             "true"
         ],
@@ -902,11 +1103,15 @@
             "false",
             "true"
         ],
-        "energetics_thermotechnology": [
+        "energie": [
             "false",
             "true"
         ],
-        "energetics_thermotechnology_energy": [
+        "energiesysteme": [
+            "false",
+            "true"
+        ],
+        "energiewandlung": [
             "false",
             "true"
         ],
@@ -914,19 +1119,15 @@
             "false",
             "true"
         ],
+        "energy_conversion": [
+            "false",
+            "true"
+        ],
         "energy_economics": [
             "false",
             "true"
         ],
-        "energy_economics_rational": [
-            "false",
-            "true"
-        ],
-        "energy_storage": [
-            "false",
-            "true"
-        ],
-        "energy_use": [
+        "energy_systems": [
             "false",
             "true"
         ],
@@ -934,17 +1135,9 @@
             "false",
             "true"
         ],
-        "engineering_geodesy": [
-            "false",
-            "true"
-        ],
         "engineering_plasma": [
-            "false",
-            "true"
-        ],
-        "engineering_plasma_technology": [
-            "false",
-            "true"
+            "true",
+            "false"
         ],
         "englisch": [
             "false",
@@ -958,55 +1151,87 @@
             "false",
             "true"
         ],
-        "environmental": [
+        "entrepreneurship": [
             "false",
             "true"
         ],
-        "exercise": [
+        "entwerfen": [
             "false",
             "true"
         ],
-        "fachdidaktik": [
+        "entwicklung": [
             "false",
             "true"
         ],
-        "fachpraktikum": [
+        "environmental_sociology": [
             "false",
             "true"
         ],
-        "fach\u00fcbergreifende": [
+        "environmental_systems": [
             "false",
             "true"
         ],
-        "fach\u00fcbergreifende_schl\u00fcsselqualifikationen": [
+        "evolution": [
             "false",
             "true"
         ],
-        "facilities": [
+        "experimentalphysik": [
             "false",
             "true"
         ],
-        "facilities_institutes": [
+        "fabrikbetriebslehre": [
             "false",
             "true"
         ],
-        "facilities_institutes_physics": [
+        "fahrzeugantriebe": [
             "false",
             "true"
         ],
-        "facility": [
+        "feinwerktechnik": [
             "false",
             "true"
         ],
-        "facility_language": [
+        "fernerkundung": [
             "false",
             "true"
         ],
-        "facility_language_center": [
+        "fiber": [
             "false",
             "true"
         ],
-        "flight": [
+        "film": [
+            "false",
+            "true"
+        ],
+        "finance": [
+            "false",
+            "true"
+        ],
+        "flight_mechanics": [
+            "false",
+            "true"
+        ],
+        "flugzeugaerodynamik": [
+            "false",
+            "true"
+        ],
+        "flugzeugentwurf": [
+            "false",
+            "true"
+        ],
+        "fluid_mechanics": [
+            "false",
+            "true"
+        ],
+        "food": [
+            "false",
+            "true"
+        ],
+        "franz\u00f6sisch": [
+            "false",
+            "true"
+        ],
+        "fremdsprache": [
             "false",
             "true"
         ],
@@ -1014,7 +1239,7 @@
             "false",
             "true"
         ],
-        "french_literatures": [
+        "frequency_technology": [
             "false",
             "true"
         ],
@@ -1022,7 +1247,35 @@
             "false",
             "true"
         ],
+        "generale": [
+            "false",
+            "true"
+        ],
+        "genetics": [
+            "false",
+            "true"
+        ],
         "geodesy": [
+            "false",
+            "true"
+        ],
+        "geohydrology": [
+            "false",
+            "true"
+        ],
+        "geometric": [
+            "false",
+            "true"
+        ],
+        "geometrie": [
+            "false",
+            "true"
+        ],
+        "geometry": [
+            "false",
+            "true"
+        ],
+        "geotechnical": [
             "false",
             "true"
         ],
@@ -1034,6 +1287,10 @@
             "false",
             "true"
         ],
+        "german_philology": [
+            "false",
+            "true"
+        ],
         "german_studies": [
             "false",
             "true"
@@ -1042,23 +1299,19 @@
             "false",
             "true"
         ],
+        "gesellschaft": [
+            "false",
+            "true"
+        ],
+        "grammatik": [
+            "false",
+            "true"
+        ],
         "greek": [
             "false",
             "true"
         ],
-        "greek_roman": [
-            "false",
-            "true"
-        ],
-        "greek_roman_world": [
-            "false",
-            "true"
-        ],
-        "grundlagen": [
-            "false",
-            "true"
-        ],
-        "high": [
+        "handling": [
             "false",
             "true"
         ],
@@ -1066,15 +1319,11 @@
             "false",
             "true"
         ],
-        "history_greek": [
+        "human_computer_interaction": [
             "false",
             "true"
         ],
-        "history_greek_roman": [
-            "false",
-            "true"
-        ],
-        "human": [
+        "humanities": [
             "false",
             "true"
         ],
@@ -1082,15 +1331,27 @@
             "false",
             "true"
         ],
-        "industrial": [
+        "hydrobiology": [
             "false",
             "true"
         ],
-        "industrial_manufacturing": [
+        "hydrochemistry": [
             "false",
             "true"
         ],
-        "industrial_manufacturing_management": [
+        "hydromechanics": [
+            "false",
+            "true"
+        ],
+        "hydrosystems": [
+            "false",
+            "true"
+        ],
+        "immunology": [
+            "false",
+            "true"
+        ],
+        "industrial_design": [
             "false",
             "true"
         ],
@@ -1098,7 +1359,7 @@
             "false",
             "true"
         ],
-        "information": [
+        "information_security": [
             "false",
             "true"
         ],
@@ -1106,203 +1367,27 @@
             "false",
             "true"
         ],
+        "informationssysteme": [
+            "false",
+            "true"
+        ],
+        "ingenieure": [
+            "false",
+            "true"
+        ],
+        "innovation": [
+            "false",
+            "true"
+        ],
         "inorganic": [
             "false",
             "true"
         ],
-        "inorganic_chemistry": [
+        "integration": [
             "false",
             "true"
         ],
-        "institute": [
-            "false",
-            "true"
-        ],
-        "institute_aerodynamics": [
-            "false",
-            "true"
-        ],
-        "institute_aerodynamics_gasdynamics": [
-            "false",
-            "true"
-        ],
-        "institute_aerospace": [
-            "false",
-            "true"
-        ],
-        "institute_aerospace_thermodynamics": [
-            "false",
-            "true"
-        ],
-        "institute_aircraft": [
-            "false",
-            "true"
-        ],
-        "institute_aircraft_design": [
-            "false",
-            "true"
-        ],
-        "institute_analysis": [
-            "false",
-            "true"
-        ],
-        "institute_analysis_dynamics": [
-            "false",
-            "true"
-        ],
-        "institute_applied": [
-            "false",
-            "true"
-        ],
-        "institute_applied_analysis": [
-            "false",
-            "true"
-        ],
-        "institute_automotive": [
-            "false",
-            "true"
-        ],
-        "institute_automotive_engineering": [
-            "false",
-            "true"
-        ],
-        "institute_biomaterials": [
-            "false",
-            "true"
-        ],
-        "institute_biomaterials_biomolecular": [
-            "false",
-            "true"
-        ],
-        "institute_building": [
-            "false",
-            "true"
-        ],
-        "institute_building_energetics": [
-            "false",
-            "true"
-        ],
-        "institute_combustion": [
-            "false",
-            "true"
-        ],
-        "institute_construction": [
-            "false",
-            "true"
-        ],
-        "institute_electrical": [
-            "false",
-            "true"
-        ],
-        "institute_energy": [
-            "false",
-            "true"
-        ],
-        "institute_energy_economics": [
-            "false",
-            "true"
-        ],
-        "institute_engineering": [
-            "false",
-            "true"
-        ],
-        "institute_engineering_geodesy": [
-            "false",
-            "true"
-        ],
-        "institute_industrial": [
-            "false",
-            "true"
-        ],
-        "institute_industrial_manufacturing": [
-            "false",
-            "true"
-        ],
-        "institute_inorganic": [
-            "false",
-            "true"
-        ],
-        "institute_inorganic_chemistry": [
-            "false",
-            "true"
-        ],
-        "institute_interfacial": [
-            "false",
-            "true"
-        ],
-        "institute_interfacial_process": [
-            "false",
-            "true"
-        ],
-        "institute_machine": [
-            "false",
-            "true"
-        ],
-        "institute_natural": [
-            "false",
-            "true"
-        ],
-        "institute_natural_language": [
-            "false",
-            "true"
-        ],
-        "institute_organic": [
-            "false",
-            "true"
-        ],
-        "institute_organic_chemistry": [
-            "false",
-            "true"
-        ],
-        "institute_philosophy": [
-            "false",
-            "true"
-        ],
-        "institute_photogrammetry": [
-            "false",
-            "true"
-        ],
-        "institute_power": [
-            "false",
-            "true"
-        ],
-        "institute_space": [
-            "false",
-            "true"
-        ],
-        "institute_space_systems": [
-            "false",
-            "true"
-        ],
-        "institute_sports": [
-            "false",
-            "true"
-        ],
-        "institute_sports_science": [
-            "false",
-            "true"
-        ],
-        "institutes": [
-            "false",
-            "true"
-        ],
-        "institutes_facilities": [
-            "false",
-            "true"
-        ],
-        "institutes_facilities_institutes": [
-            "false",
-            "true"
-        ],
-        "institutes_mathematics": [
-            "false",
-            "true"
-        ],
-        "institutes_physics": [
-            "false",
-            "true"
-        ],
-        "interfacial": [
+        "intelligent_systems": [
             "false",
             "true"
         ],
@@ -1310,27 +1395,39 @@
             "false",
             "true"
         ],
-        "interfacial_process_engineering": [
+        "international_relations": [
             "false",
             "true"
         ],
-        "international": [
+        "italian": [
             "false",
             "true"
         ],
-        "kolloquium": [
+        "japanisch": [
+            "false",
+            "true"
+        ],
+        "konstruktion": [
+            "false",
+            "true"
+        ],
+        "konstruktionslehre": [
+            "false",
+            "true"
+        ],
+        "kraftfahrzeugmechatronik": [
+            "false",
+            "true"
+        ],
+        "kunst": [
+            "false",
+            "true"
+        ],
+        "landeskunde": [
             "false",
             "true"
         ],
         "language": [
-            "false",
-            "true"
-        ],
-        "language_center": [
-            "false",
-            "true"
-        ],
-        "language_processing": [
             "false",
             "true"
         ],
@@ -1346,11 +1443,27 @@
             "Portuguese",
             "Spanish"
         ],
-        "learning": [
+        "laser": [
             "false",
             "true"
         ],
-        "lecture": [
+        "latein": [
+            "false",
+            "true"
+        ],
+        "law": [
+            "false",
+            "true"
+        ],
+        "lexicon": [
+            "false",
+            "true"
+        ],
+        "lineare_algebra": [
+            "false",
+            "true"
+        ],
+        "linguistics": [
             "false",
             "true"
         ],
@@ -1358,27 +1471,35 @@
             "false",
             "true"
         ],
-        "literature_culture": [
+        "logistics": [
             "false",
             "true"
         ],
-        "literature_french": [
+        "logistik": [
             "false",
             "true"
         ],
-        "literature_ii": [
+        "luft": [
             "false",
             "true"
         ],
-        "literatures": [
+        "luftfahrtsysteme": [
             "false",
             "true"
         ],
-        "literatures_cultures": [
+        "luftreinhaltung": [
             "false",
             "true"
         ],
-        "machine": [
+        "machine_learning": [
+            "false",
+            "true"
+        ],
+        "machinery": [
+            "false",
+            "true"
+        ],
+        "makro\u00f6konomik": [
             "false",
             "true"
         ],
@@ -1386,23 +1507,27 @@
             "false",
             "true"
         ],
-        "management_emissions": [
-            "false",
-            "true"
-        ],
         "manufacturing": [
             "false",
             "true"
         ],
-        "manufacturing_management": [
+        "marketing": [
             "false",
             "true"
         ],
-        "materials": [
+        "maschinen": [
+            "false",
+            "true"
+        ],
+        "massivumformung": [
             "false",
             "true"
         ],
         "materials_science": [
+            "false",
+            "true"
+        ],
+        "materialwissenschaft": [
             "false",
             "true"
         ],
@@ -1414,6 +1539,14 @@
             "false",
             "true"
         ],
+        "mathematische": [
+            "false",
+            "true"
+        ],
+        "mechanical": [
+            "false",
+            "true"
+        ],
         "mechanics": [
             "false",
             "true"
@@ -1422,19 +1555,39 @@
             "false",
             "true"
         ],
+        "medical": [
+            "false",
+            "true"
+        ],
         "medieval": [
             "false",
             "true"
         ],
-        "metal": [
+        "messtechnik": [
             "false",
             "true"
         ],
-        "methoden": [
+        "microbiology": [
             "false",
             "true"
         ],
-        "methods": [
+        "microeconomics": [
+            "false",
+            "true"
+        ],
+        "microelectronics": [
+            "false",
+            "true"
+        ],
+        "microintegration": [
+            "false",
+            "true"
+        ],
+        "mikrobiologie": [
+            "false",
+            "true"
+        ],
+        "mikrosysteme": [
             "false",
             "true"
         ],
@@ -1442,19 +1595,7 @@
             "false",
             "true"
         ],
-        "modelling": [
-            "false",
-            "true"
-        ],
-        "modern": [
-            "false",
-            "true"
-        ],
-        "modern_german": [
-            "false",
-            "true"
-        ],
-        "modern_german_literature": [
+        "modellierung": [
             "false",
             "true"
         ],
@@ -1462,11 +1603,31 @@
             "false",
             "true"
         ],
-        "natural": [
+        "molekularbiologie": [
             "false",
             "true"
         ],
-        "natural_language": [
+        "molekulare": [
+            "false",
+            "true"
+        ],
+        "morphologie": [
+            "false",
+            "true"
+        ],
+        "nachhaltigkeit": [
+            "false",
+            "true"
+        ],
+        "nachrichtentechnik": [
+            "false",
+            "true"
+        ],
+        "nano": [
+            "false",
+            "true"
+        ],
+        "nanotechnologie": [
             "false",
             "true"
         ],
@@ -1478,7 +1639,23 @@
             "false",
             "true"
         ],
-        "numerical": [
+        "networks": [
+            "false",
+            "true"
+        ],
+        "nichtlineare": [
+            "false",
+            "true"
+        ],
+        "nuclear": [
+            "false",
+            "true"
+        ],
+        "number_theory": [
+            "false",
+            "true"
+        ],
+        "numerical_analysis": [
             "false",
             "true"
         ],
@@ -1486,19 +1663,19 @@
             "false",
             "true"
         ],
-        "numerische": [
+        "operations": [
             "false",
             "true"
         ],
-        "office": [
+        "optical": [
             "false",
             "true"
         ],
-        "office_fach\u00fcbergreifende": [
+        "optics": [
             "false",
             "true"
         ],
-        "office_fach\u00fcbergreifende_schl\u00fcsselqualifikationen": [
+        "optimierung": [
             "false",
             "true"
         ],
@@ -1506,7 +1683,15 @@
             "false",
             "true"
         ],
-        "organic_chemistry": [
+        "parallel_systems": [
+            "false",
+            "true"
+        ],
+        "philology": [
+            "false",
+            "true"
+        ],
+        "philosophie": [
             "false",
             "true"
         ],
@@ -1514,11 +1699,15 @@
             "false",
             "true"
         ],
+        "phonetic": [
+            "false",
+            "true"
+        ],
         "photogrammetry": [
             "false",
             "true"
         ],
-        "physical": [
+        "phraseology": [
             "false",
             "true"
         ],
@@ -1530,7 +1719,15 @@
             "false",
             "true"
         ],
-        "planning": [
+        "physikalchemie": [
+            "true",
+            "false"
+        ],
+        "plant": [
+            "false",
+            "true"
+        ],
+        "planung": [
             "false",
             "true"
         ],
@@ -1538,43 +1735,55 @@
             "false",
             "true"
         ],
-        "plasma_technology": [
+        "political_science": [
             "false",
             "true"
         ],
-        "political": [
+        "politics": [
             "false",
             "true"
         ],
-        "power": [
+        "polymer": [
             "false",
             "true"
         ],
-        "praktikum": [
+        "polymerchemistry": [
             "false",
             "true"
         ],
-        "praktische": [
+        "power_transmission": [
             "false",
             "true"
         ],
-        "process": [
+        "production": [
             "false",
             "true"
         ],
-        "process_engineering": [
+        "produktentwicklung": [
             "false",
             "true"
         ],
-        "process_engineering_plasma": [
+        "programmierung": [
             "false",
             "true"
         ],
-        "processing": [
+        "programming": [
             "false",
             "true"
         ],
-        "public": [
+        "propulsion_systems": [
+            "false",
+            "true"
+        ],
+        "prop\u00e4deutikum": [
+            "false",
+            "true"
+        ],
+        "public_law": [
+            "false",
+            "true"
+        ],
+        "qualitative_sozialforschung": [
             "false",
             "true"
         ],
@@ -1582,19 +1791,43 @@
             "false",
             "true"
         ],
-        "rational": [
+        "radio": [
             "false",
             "true"
         ],
-        "rational_energy": [
+        "railway_transportation": [
+            "true",
+            "false"
+        ],
+        "raumfahrt": [
             "false",
             "true"
         ],
-        "rational_energy_use": [
+        "raumfahrttechnik": [
             "false",
             "true"
         ],
-        "research": [
+        "rechnungswesen": [
+            "false",
+            "true"
+        ],
+        "recycling": [
+            "false",
+            "true"
+        ],
+        "regelungstechnik": [
+            "false",
+            "true"
+        ],
+        "reliability": [
+            "false",
+            "true"
+        ],
+        "robotics": [
+            "false",
+            "true"
+        ],
+        "robust": [
             "false",
             "true"
         ],
@@ -1602,19 +1835,7 @@
             "false",
             "true"
         ],
-        "roman_world": [
-            "false",
-            "true"
-        ],
         "romance": [
-            "false",
-            "true"
-        ],
-        "romance_literature": [
-            "false",
-            "true"
-        ],
-        "romance_literature_french": [
             "false",
             "true"
         ],
@@ -1622,11 +1843,11 @@
             "false",
             "true"
         ],
-        "schl\u00fcsselqualifikationen": [
+        "russisch": [
             "false",
             "true"
         ],
-        "schreibwerkstatt": [
+        "schreiben": [
             "false",
             "true"
         ],
@@ -1634,21 +1855,49 @@
             "false",
             "true"
         ],
+        "security": [
+            "false",
+            "true"
+        ],
+        "semantics": [
+            "false",
+            "true"
+        ],
+        "semantik": [
+            "false",
+            "true"
+        ],
         "semiconductor": [
             "false",
             "true"
         ],
-        "seminar": [
+        "sensors": [
             "false",
             "true"
         ],
-        "simulation": [
+        "signal_processing": [
+            "false",
+            "true"
+        ],
+        "simtech": [
+            "false",
+            "true"
+        ],
+        "simulation_sciences": [
+            "false",
+            "true"
+        ],
+        "smart_sensors": [
             "false",
             "true"
         ],
         "sociology": [
             "false",
             "true"
+        ],
+        "sociology_technology": [
+            "true",
+            "false"
         ],
         "software": [
             "false",
@@ -1658,7 +1907,15 @@
             "false",
             "true"
         ],
-        "sose": [
+        "softwaretechnik": [
+            "false",
+            "true"
+        ],
+        "sozialforschung": [
+            "false",
+            "true"
+        ],
+        "soziologische": [
             "false",
             "true"
         ],
@@ -1666,7 +1923,15 @@
             "false",
             "true"
         ],
-        "space_systems": [
+        "spanisch": [
+            "false",
+            "true"
+        ],
+        "spectroscopy": [
+            "false",
+            "true"
+        ],
+        "speech": [
             "false",
             "true"
         ],
@@ -1674,7 +1939,19 @@
             "false",
             "true"
         ],
-        "sports_science": [
+        "sprache": [
+            "false",
+            "true"
+        ],
+        "statics": [
+            "false",
+            "true"
+        ],
+        "statistik": [
+            "false",
+            "true"
+        ],
+        "stochastics": [
             "false",
             "true"
         ],
@@ -1682,27 +1959,27 @@
             "false",
             "true"
         ],
-        "structural": [
+        "strategic_management": [
             "false",
             "true"
         ],
-        "structures": [
+        "structural_design": [
             "false",
             "true"
         ],
-        "studies": [
+        "structural_mechanics": [
             "false",
             "true"
         ],
-        "system": [
+        "supply_management": [
             "false",
             "true"
         ],
-        "systeme": [
+        "sustainability": [
             "false",
             "true"
         ],
-        "systems": [
+        "syntax": [
             "false",
             "true"
         ],
@@ -1710,11 +1987,15 @@
             "false",
             "true"
         ],
-        "technical": [
+        "technik": [
             "false",
             "true"
         ],
-        "technische": [
+        "technische_mechanik": [
+            "false",
+            "true"
+        ],
+        "technologiemanagement": [
             "false",
             "true"
         ],
@@ -1726,31 +2007,11 @@
             "false",
             "true"
         ],
-        "teil": [
+        "telecommunications": [
             "false",
             "true"
         ],
-        "testing": [
-            "false",
-            "true"
-        ],
-        "theoretical": [
-            "false",
-            "true"
-        ],
-        "theoretical_economics": [
-            "false",
-            "true"
-        ],
-        "theoretische": [
-            "false",
-            "true"
-        ],
-        "theorie": [
-            "false",
-            "true"
-        ],
-        "theory": [
+        "textile": [
             "false",
             "true"
         ],
@@ -1758,19 +2019,35 @@
             "false",
             "true"
         ],
+        "thermodynamik": [
+            "false",
+            "true"
+        ],
         "thermotechnology": [
             "false",
             "true"
         ],
-        "thermotechnology_energy": [
+        "topology": [
             "false",
             "true"
         ],
-        "thermotechnology_energy_storage": [
+        "translation": [
             "false",
             "true"
         ],
-        "tutorium": [
+        "transmission": [
+            "false",
+            "true"
+        ],
+        "transportation": [
+            "false",
+            "true"
+        ],
+        "turbomachinery": [
+            "false",
+            "true"
+        ],
+        "turbomaschinen": [
             "false",
             "true"
         ],
@@ -1799,19 +2076,35 @@
             "Workshop",
             "blended learning"
         ],
-        "vocational": [
+        "umformtechnik": [
             "false",
             "true"
         ],
-        "vocational_education": [
+        "urban_planning": [
             "false",
             "true"
         ],
-        "vorlesung": [
+        "verbindungstechnik": [
             "false",
             "true"
         ],
-        "waste": [
+        "verfahrenstechnik": [
+            "false",
+            "true"
+        ],
+        "virtual_reality": [
+            "false",
+            "true"
+        ],
+        "visualisierung": [
+            "false",
+            "true"
+        ],
+        "volkswirtschaftliches": [
+            "false",
+            "true"
+        ],
+        "voltage": [
             "false",
             "true"
         ],
@@ -1819,19 +2112,23 @@
             "false",
             "true"
         ],
-        "waste_management_emissions": [
+        "water_resources": [
             "false",
             "true"
         ],
-        "wissenschaftlichen": [
+        "werkstoffe": [
             "false",
             "true"
         ],
-        "wissenschaftlichen_arbeiten": [
+        "werkzeugmaschinen": [
             "false",
             "true"
         ],
-        "world": [
+        "wirtschaftsinformatik": [
+            "false",
+            "true"
+        ],
+        "wissenschaft": [
             "false",
             "true"
         ],
@@ -1839,11 +2136,7 @@
             "false",
             "true"
         ],
-        "\u00fcbung": [
-            "false",
-            "true"
-        ],
-        "\u00fcbungen": [
+        "\u00f6kologie": [
             "false",
             "true"
         ]
@@ -1872,306 +2165,356 @@
         "prerequisite",
         "institution",
         "extra_info",
-        "american_literature_culture",
-        "romance_literature",
-        "engineering_plasma",
-        "political",
-        "schl\u00fcsselqualifikationen",
-        "industrial_manufacturing",
-        "german",
-        "exercise",
-        "quantum",
-        "fachpraktikum",
-        "information_systems",
-        "culture",
-        "literature",
-        "methoden",
-        "greek",
-        "biomaterials_biomolecular_systems",
-        "analysis_numerical",
-        "inorganic_chemistry",
-        "american_literature",
-        "software_engineering",
-        "natural_language",
-        "numerische",
-        "einf\u00fchrung",
-        "german_studies",
-        "central_facility",
-        "mechanics",
-        "institute_philosophy",
-        "anleitung_wissenschaftlichen",
-        "energetics",
-        "research",
-        "aerodynamics_gasdynamics",
-        "energy_economics_rational",
-        "institute_building_energetics",
-        "waste_management",
-        "rational_energy_use",
-        "language_center",
-        "greek_roman_world",
-        "manufacturing",
-        "institute_natural",
-        "english",
-        "german_literature",
-        "office_fach\u00fcbergreifende_schl\u00fcsselqualifikationen",
-        "institute_aerodynamics_gasdynamics",
-        "tutorium",
-        "kolloquium",
-        "sose",
-        "sports",
-        "geodesy",
-        "systems",
-        "dynamics",
-        "language_processing",
-        "seminar",
-        "modern",
-        "energy_use",
-        "energy_storage",
-        "greek_roman",
-        "writing",
-        "applied",
-        "biomolecular_systems",
-        "engineering_plasma_technology",
-        "storage",
-        "economics_rational_energy",
-        "modelling",
-        "roman",
-        "engineering_geodesy",
-        "chemistry",
-        "semiconductor",
-        "economics",
-        "materials_science",
-        "facility_language_center",
-        "analysis",
-        "process_engineering",
-        "structural",
-        "anleitung_wissenschaftlichen_arbeiten",
-        "civil",
-        "metal",
-        "machine",
-        "technologies",
-        "components",
-        "computing",
-        "institute_interfacial",
-        "building_energetics_thermotechnology",
-        "\u00fcbung",
-        "construction",
-        "institute_sports",
-        "central_office",
-        "building_energetics",
-        "modeling",
-        "facility_language",
-        "gasdynamics",
-        "institute_automotive_engineering",
-        "management_emissions",
-        "institute",
-        "wissenschaftlichen",
-        "grundlagen",
-        "institutes_facilities_institutes",
-        "materials",
-        "modern_german_literature",
-        "manufacturing_management",
-        "literatures_cultures",
-        "theoretical",
-        "institute_engineering_geodesy",
-        "mathematik",
-        "theorie",
-        "history_greek",
-        "analysis_dynamics_modeling",
-        "organic_chemistry",
-        "flight",
-        "teil",
-        "institute_automotive",
-        "french",
-        "philosophy",
-        "institute_interfacial_process",
-        "french_literatures",
-        "thermotechnology_energy_storage",
-        "space",
-        "sports_science",
-        "modern_german",
-        "dynamics_modeling",
-        "electrical",
-        "advanced",
-        "planning",
-        "analysis_dynamics",
-        "science",
-        "computer_science",
-        "processing",
-        "schreibwerkstatt",
-        "design",
-        "computer",
-        "institutes_mathematics",
-        "institute_aircraft",
-        "physical",
-        "industrial_manufacturing_management",
-        "vocational",
-        "photogrammetry",
-        "public",
-        "institutes_facilities",
-        "romanistik",
-        "chemie",
-        "institute_inorganic",
-        "literature_french",
-        "applied_analysis_numerical",
-        "analyse",
-        "organic",
-        "natural",
-        "fach\u00fcbergreifende_schl\u00fcsselqualifikationen",
-        "rational_energy",
-        "office_fach\u00fcbergreifende",
-        "world",
-        "engineering",
-        "applied_analysis",
-        "space_systems",
-        "aerospace",
-        "rational",
-        "simulation",
-        "thermodynamics",
-        "hydraulic",
-        "testing",
-        "roman_world",
-        "institute_energy_economics",
-        "business",
-        "institute_construction",
-        "algebra",
-        "interfacial",
-        "informatik",
-        "aircraft_design",
-        "thermotechnology_energy",
-        "software",
-        "natural_language_processing",
-        "education",
-        "center",
-        "institute_industrial_manufacturing",
-        "geschichte",
-        "civil_engineering",
-        "power",
-        "praktikum",
-        "technology",
-        "studies",
-        "waste",
-        "vocational_education",
-        "information",
-        "theoretische",
-        "institute_aircraft_design",
-        "plasma",
-        "central_facility_language",
-        "inorganic",
-        "bachelor",
-        "deutsch",
-        "physics",
-        "building",
-        "industrial",
         "teaching",
-        "institute_engineering",
-        "fach\u00fcbergreifende",
-        "institute_building",
-        "vorlesung",
-        "praktische",
-        "institute_machine",
-        "literatures",
-        "lecture",
-        "waste_management_emissions",
-        "institute_energy",
-        "\u00fcbungen",
-        "numerical_simulation",
-        "control",
-        "institute_aerospace",
-        "aircraft",
-        "office",
-        "international",
-        "department",
-        "methods",
-        "theory",
-        "institute_biomaterials_biomolecular",
-        "central",
-        "biomolecular",
-        "institute_natural_language",
-        "energy_economics",
-        "thermotechnology",
-        "institute_analysis_dynamics",
-        "romance",
-        "institute_inorganic_chemistry",
-        "navigation",
-        "combustion",
-        "process",
-        "biomaterials_biomolecular",
-        "aerospace_thermodynamics",
-        "institute_power",
-        "history",
-        "energy",
-        "automotive_engineering",
-        "institute_applied_analysis",
-        "institute_biomaterials",
-        "learning",
-        "american",
-        "englisch",
-        "energetics_thermotechnology",
-        "institute_organic_chemistry",
-        "institute_photogrammetry",
-        "institutes_physics",
-        "facility",
-        "economics_rational",
-        "institute_sports_science",
-        "human",
-        "mathematics",
-        "theoretical_economics",
-        "fachdidaktik",
-        "arbeiten",
-        "sociology",
-        "structures",
-        "literature_culture",
-        "language",
-        "environmental",
-        "literature_ii",
-        "doktoranden",
-        "physik",
-        "institute_applied",
-        "apmb",
-        "medieval",
-        "institute_analysis",
-        "facilities_institutes",
-        "institute_combustion",
-        "biochemistry",
-        "cultures",
-        "automotive",
-        "facilities",
-        "institute_aerospace_thermodynamics",
-        "mechanik",
-        "technical",
-        "interfacial_process",
-        "systeme",
-        "english_studies",
-        "wissenschaftlichen_arbeiten",
-        "biomaterials",
-        "institute_industrial",
-        "numerical",
-        "institute_space_systems",
-        "modern_history",
-        "facilities_institutes_physics",
-        "institute_organic",
-        "romance_literature_french",
-        "management",
-        "institute_aerodynamics",
-        "institute_space",
-        "process_engineering_plasma",
-        "energetics_thermotechnology_energy",
-        "analysis_numerical_simulation",
-        "high",
-        "plasma_technology",
-        "institutes",
-        "anleitung",
-        "technische",
-        "interfacial_process_engineering",
-        "history_greek_roman",
-        "emissions",
-        "institute_electrical",
-        "computational",
+        "statistik",
+        "mathematik",
+        "baustatik",
+        "biology",
+        "manufacturing",
+        "stochastics",
+        "experimentalphysik",
+        "roman",
+        "luft",
+        "thermodynamics",
+        "literature",
+        "automation",
+        "kunst",
+        "distributed_systems",
+        "semantics",
+        "political_science",
         "communication",
-        "central_office_fach\u00fcbergreifende",
+        "volkswirtschaftliches",
+        "electronics",
+        "mechanics",
+        "fabrikbetriebslehre",
+        "energetics",
+        "werkzeugmaschinen",
+        "space",
+        "informatik",
+        "technology",
+        "turbomachinery",
+        "medieval",
+        "business_administration",
+        "design",
+        "programming",
+        "energy_systems",
+        "business",
+        "digital_humanities",
+        "mechanical",
+        "flight_mechanics",
+        "qualitative_sozialforschung",
+        "geodesy",
+        "interfacial_process",
+        "databases",
+        "culture",
+        "machinery",
+        "modellierung",
+        "supply_management",
+        "plasma",
+        "architektur",
+        "fiber",
+        "networks",
+        "strategic_management",
+        "german_studies",
+        "elektrodynamik",
+        "security",
+        "electrical_optical",
+        "deep_learning",
+        "urban_planning",
+        "engineering_plasma",
+        "parallel_systems",
+        "energy_economics",
+        "kraftfahrzeugmechatronik",
+        "elektrotechnik",
+        "nachhaltigkeit",
+        "industrial_design",
+        "nuclear",
+        "conceptual_design",
+        "romanistik",
+        "finance",
+        "photogrammetry",
+        "aircraft",
+        "marketing",
+        "applied_optics",
+        "molekularbiologie",
+        "railway_transportation",
+        "lineare_algebra",
+        "biomolecular",
+        "operations",
+        "applied_mechanics",
+        "biochemie",
+        "humanities",
+        "analyse",
+        "german_literature",
+        "numerical_analysis",
+        "physics",
+        "biologie",
+        "thermotechnology",
+        "philosophie",
+        "geotechnical",
+        "electrical",
+        "biochemical",
+        "flugzeugaerodynamik",
+        "aerospace",
+        "technik",
+        "wirtschaftsinformatik",
+        "fluid_mechanics",
+        "robotics",
+        "russisch",
+        "astrophysik",
+        "elektromagnetische",
+        "nanotechnologie",
+        "entwicklung",
+        "luftreinhaltung",
+        "english",
+        "energiesysteme",
+        "elektrische",
+        "civil_engineering",
+        "writing",
+        "algorithmen",
+        "technische_mechanik",
+        "optics",
+        "storage",
+        "datenanalyse",
+        "simulation_sciences",
+        "recycling",
+        "radio",
+        "morphologie",
+        "law",
+        "softwaretechnik",
+        "modern_history",
+        "prop\u00e4deutikum",
+        "engineering",
+        "computational_cognitive",
+        "japanisch",
+        "hydromechanics",
+        "economics",
+        "statics",
+        "analytic_computing",
+        "plant",
+        "voltage",
+        "organic",
+        "waste_management",
+        "flugzeugentwurf",
+        "art_history",
+        "art",
+        "environmental_sociology",
+        "fahrzeugantriebe",
+        "bauteilpr\u00fcfung",
+        "structural_mechanics",
+        "film",
+        "signal_processing",
+        "cell",
+        "spectroscopy",
+        "computational_mechanics",
+        "werkstoffe",
+        "elektronik",
+        "didaktik",
+        "wissenschaft",
+        "genetics",
+        "quantum",
+        "evolution",
+        "sociology_technology",
+        "konstruktion",
+        "geohydrology",
+        "composites",
+        "public_law",
+        "water_resources",
+        "computational",
+        "computer_science",
+        "production",
+        "hydrochemistry",
+        "food",
+        "logistik",
+        "semantik",
+        "bauen",
+        "nano",
+        "simtech",
+        "ingenieure",
+        "anorganische",
+        "automatisierungstechnik",
+        "phonetic",
+        "contemporary_art",
+        "computer_vision",
+        "maschinen",
+        "medical",
+        "spanisch",
+        "human_computer_interaction",
+        "chemie",
+        "bautechnik",
+        "cognitive_science",
+        "biomechanik",
+        "physikalchemie",
+        "corporate",
+        "konstruktionslehre",
+        "rechnungswesen",
+        "linguistics",
+        "german",
+        "telecommunications",
+        "energiewandlung",
+        "atomic",
+        "philology",
+        "reliability",
+        "\u00f6kologie",
         "aerodynamics",
-        "system",
+        "mathematics",
+        "deutsch",
+        "data_science",
+        "energy_conversion",
+        "analysis",
+        "latein",
+        "energie",
+        "language",
+        "information_security",
+        "betrieb",
+        "translation",
+        "numerical_simulation",
+        "fernerkundung",
+        "international_relations",
+        "architecture",
+        "molekulare",
+        "sprache",
+        "robust",
+        "microeconomics",
+        "propulsion_systems",
+        "topology",
+        "academic_writing",
+        "microelectronics",
+        "french",
+        "produktentwicklung",
+        "thermodynamik",
+        "italian",
+        "software_engineering",
+        "fremdsprache",
+        "structural_design",
+        "geometry",
+        "integration",
+        "ceramic",
+        "software",
+        "messtechnik",
+        "greek",
+        "turbomaschinen",
+        "machine_learning",
+        "biochemistry",
+        "data_engineering",
+        "history",
+        "biological",
+        "technologiemanagement",
+        "education",
+        "physik",
+        "romance",
+        "biomechanical",
+        "polymer",
+        "microbiology",
+        "feinwerktechnik",
+        "biomedical",
+        "verfahrenstechnik",
+        "materials_science",
+        "sozialforschung",
+        "bwl",
+        "anlagen",
+        "speech",
+        "combustion_power",
+        "nichtlineare",
+        "construction_management",
+        "mathematische",
+        "management",
+        "soziologische",
+        "lexicon",
+        "automation_software",
+        "natural_language_processing",
+        "frequency_technology",
+        "chinesisch",
+        "accounting",
+        "emissions",
+        "sensors",
+        "virtual_reality",
+        "innovation",
+        "raumfahrt",
+        "luftfahrtsysteme",
+        "navigation",
+        "hydrosystems",
+        "algebra",
+        "informationssysteme",
+        "philosophy",
+        "construction_design",
+        "englisch",
+        "regelungstechnik",
+        "programmierung",
+        "mikrosysteme",
+        "immunology",
+        "politics",
+        "umformtechnik",
+        "number_theory",
+        "aeronautical",
+        "technologies",
+        "bauphysik",
+        "visualisierung",
+        "embedded_systems",
+        "energy",
+        "optical",
+        "gasdynamics",
+        "construction_materials",
+        "german_philology",
+        "chemistry",
+        "inorganic",
+        "ecology",
+        "geometrie",
+        "english_studies",
+        "dialogsysteme",
+        "planung",
+        "algorithmik",
+        "automotive_engineering",
+        "generale",
+        "landeskunde",
+        "data",
+        "laser",
+        "verbindungstechnik",
+        "information_systems",
+        "phraseology",
+        "american_literature",
+        "transportation",
+        "logistics",
+        "sustainability",
+        "modeling",
+        "biomaterials",
+        "hydraulic",
+        "textile",
+        "environmental_systems",
+        "makro\u00f6konomik",
+        "syntax",
+        "franz\u00f6sisch",
+        "transmission",
+        "mechanik",
+        "sports",
+        "materialwissenschaft",
+        "massivumformung",
+        "power_transmission",
+        "mikrobiologie",
+        "science",
+        "entwerfen",
+        "sociology",
+        "smart_sensors",
+        "handling",
+        "geschichte",
+        "polymerchemistry",
+        "intelligent_systems",
+        "raumfahrttechnik",
+        "gesellschaft",
+        "schreiben",
+        "acoustics",
+        "nachrichtentechnik",
+        "entrepreneurship",
+        "optimierung",
+        "grammatik",
+        "semiconductor",
+        "cultures",
+        "geometric",
+        "computerbasiertes",
+        "administration",
+        "hydrobiology",
+        "microintegration",
+        "electrical_energy",
         "registration"
     ],
     "system_requestable": [
