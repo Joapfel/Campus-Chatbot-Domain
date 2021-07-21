@@ -42,6 +42,10 @@ template inform_alternatives(title, *slots)
 	special_case title = "none"
 		"Unfortunately, I found no other course which also {for_entry(slots, "info", ", ", " and ", title)}."
 
+# nlg for registration
+template inform_byname(registration, title)
+	if registration = "exception": "Unfortunately I can not provide you with this information right now."
+	if registration = "not_found": "Unfortunately I could not find any information about the registration."
 
 template inform_byname(registration, link, title)
 	if registration = "True": "The Campus registration is still possible. Here is the link: {link}"
@@ -79,11 +83,6 @@ function info(slot, value, title)
 	if slot = "institution": "is offered by {value}"
 	if slot = "extra_info": "contains some extra information: \"{value}\""
 	if slot = "language_taught": "is offered in {value}"
-
-	# info about registration
-	if slot = "registration"
-	    if value = "exception": "Unfortunately I can not provide you with this information right now."
-	    if value = "not_found": "Unfortunately I could not find any information about the registration."
 
 	# other set slots
 	if slot = "type"
